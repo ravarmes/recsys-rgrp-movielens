@@ -1,15 +1,15 @@
 <h1 align="center">
-    <img alt="RVM" src="https://github.com/ravarmes/recsys-cluster-loss/blob/master/assets/logo.jpg" />
+    <img alt="RVM" src="https://github.com/ravarmes/recsys-rgrp-movielens/blob/master/assets/logo.jpg" />
 </h1>
 
 <h3 align="center">
   Análise de Justiça de Grupo no Dataset MovieLens
 </h3>
 
-<p align="center">Exemplo de agrupamentos utilizando medidas de justiça individual </p>
+<p align="center">Exemplo de agrupamentos utilizando medidas de justiça social </p>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ravarmes/recsys-cluster-loss?color=%2304D361">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ravarmes/recsys-rgrp-movielens?color=%2304D361">
 
   <a href="http://www.linkedin.com/in/rafael-vargas-mesquita">
     <img alt="Made by Rafael Vargas Mesquita" src="https://img.shields.io/badge/made%20by-Rafael%20Vargas%20Mesquita-%2304D361">
@@ -17,8 +17,8 @@
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
 
-  <a href="https://github.com/ravarmes/recsys-cluster-loss/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/ravarmes/recsys-cluster-loss?style=social">
+  <a href="https://github.com/ravarmes/recsys-rgrp-movielens/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/ravarmes/recsys-rgrp-movielens?style=social">
   </a>
 </p>
 
@@ -30,9 +30,9 @@
 
 ## :page_with_curl: Sobre o projeto <a name="-sobre"/></a>
 
-O objetivo deste repositório é implementar os cálculos para uma análise de agrupamento no contexto de sistemas de recomendação, considerando as perdas da medida de justiça individual.
+Este estudo investiga a equidade em sistemas de recomendação utilizando o dataset MovieLens, aplicando estratégias de filtragem colaborativa: ALS, KNN e NMF. Avaliamos a injustiça em diferentes configurações de agrupamento: Gênero, Idade, Avaliações e Aglomerativo. Os resultados indicam variações significativas de injustiça entre as estratégias, com o método Aglomerativo destacando-se por apresentar os maiores níveis de injustiça do grupo na maioria das abordagens. Esta análise sugere a necessidade de uma seleção cuidadosa da estratégia de filtragem e do método de agrupamento para promover sistemas de recomendação mais justos e inclusivos, destacando a importância de considerar múltiplas dimensões de injustiça na concepção destes sistemas.
 
-Os cálculos da justiça individual são baseados nas implementações do respositório [antidote-data-framework](https://github.com/rastegarpanah/antidote-data-framework) 
+Os cálculos de justiça são baseados nas implementações do respositório [antidote-data-framework](https://github.com/rastegarpanah/antidote-data-framework) 
 
 ### Funções de Objetivo Social (Social Objective Functions)
 
@@ -57,7 +57,7 @@ Os cálculos da justiça individual são baseados nas implementações do respos
 
 ## :link: Links <a name="-links"/></a>
 
-- [Google Sheets](https://github.com/ravarmes/recsys-cluster-loss/blob/master/docs/recsys-cluster-loss-example.xlsx) - Planilha para demonstrar a utilização do algoritmo para uma base de dados pequena (40 usuários e 20 filmes);
+- [Google Sheets](https://github.com/ravarmes/recsys-rgrp-movielens/blob/master/docs/recsys-rgrp-movielens-example.xlsx) - Planilha para demonstrar a utilização do algoritmo para uma base de dados pequena (40 usuários e 20 filmes);
 - [Artigo](https://arxiv.org/pdf/1812.01504.pdf) - Fighting Fire with Fire: Using Antidote Data to Improve Polarization and Fairness of Recommender Systems;
 
 
