@@ -24,7 +24,6 @@
 
 <p align="center">
   <a href="#-sobre">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-links">Links</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licenca">Licença</a>
 </p>
 
@@ -40,25 +39,16 @@ Os cálculos de justiça são baseados nas implementações do respositório [an
 
 ### Arquivos
 
-- RecSys: implementação da classe genérica para a utilização do sistema de recomendação
-- RecSysALS: implementação do sistema de recomendação baseado em filtragem colaborativa utilizando ALS (mínimos quadrados alternados)
-- RecSysExampleData20Items: implementação de uma matriz de recomendações estimadas (apenas exemplo com valores aleatórios)
-- UserFairness: implementação das funções de objetivo social (polarização, justiça individual e justiça do grupo)
-- TestUserFairness_Books: arquivo para testar a implementação UserFairness com base no conjunto de dados Books
-- TestUserFairness_MovieLens_1M: arquivo para testar a implementação UserFairness com base no conjunto de dados MovieLens-1M
-- TestUserFairness_MovieLens_Small: arquivo para testar a implementação UserFairness com base no conjunto de dados MovieLens-Small (40 usuários e 20 itens)
-- TestCluster_Books_01: notebook com a implementação de análise de agrupamento (dendograma e K-means) com base no conjunto de dados Books e nas variáveis justiça individual, idade e localização.
-- TestCluster_Books_02: notebook com a implementação de análise de agrupamento (dendograma e K-means) com base no conjunto de dados Books e na variável justiça individual.
-- TestCluster_MovieLens_1M_01: notebook com a implementação de análise de agrupamento (dendograma e K-means) com base no conjunto de dados MovieLens-1M e nas variáveis justiça individual, idade e ocupação.
-- TestCluster_MovieLens_1M_02: notebook com a implementação de análise de agrupamento (dendograma e K-means) com base no conjunto de dados MovieLens-1M e na variável justiça individual.
-- TestCluster_MovieLens_Small_01: notebook com a implementação de análise de agrupamento (dendograma e K-means) com base no conjunto de dados MovieLens-Small e nas variáveis justiça individual, idade, NA, SPI, MA e MR.
-- TestCluster_MovieLens_Small_02: notebook com a implementação de análise de agrupamento (dendograma e K-means) com base no conjunto de dados MovieLens-Small e na variável justiça individual.
+| Arquivo                               | Descrição                                                                                                                                                                                                                                   |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| AlgorithmImpartiality                | Classe para promover justiça nas recomendações de algoritmos de sistemas de recomendação.                                                                                                                                                   |
+| AlgorithmUserFairness                | Classes para medir a justiça (polarização, justiça individual e justiça do grupo) das recomendações de algoritmos de sistemas de recomendação.                                                                                               |
+| RecSys                               | Classe no padrão fábrica para instanciar um sistema de recomendação com base em parâmetros string.                                                                                                                                           |
+| RecSysALS                            | Alternating Least Squares (ALS) para Filtragem Colaborativa é um algoritmo que otimiza iterativamente duas matrizes para melhor prever avaliações de usuários em itens, baseando-se na ideia de fatoração de matrizes.                       |
+| RecSysKNN                            | K-Nearest Neighbors para Sistemas de Recomendação é um método que recomenda itens ou usuários baseando-se na proximidade ou similaridade entre eles, utilizando a técnica dos K vizinhos mais próximos.                                      |
+| RecSysNMF                            | Non-Negative Matrix Factorization para Sistemas de Recomendação utiliza a decomposição de uma matriz de avaliações em duas matrizes de fatores não-negativos, revelando padrões latentes que podem ser usados para prever avaliações faltantes. |
+| Test_FairnessGroup_MovieLens_Age         | Script de teste do algoritmo de medidas de justiça (AlgorithmUserFairness) considerando o agrupamento dos usuários por idade                                                                                                |
 
-
-## :link: Links <a name="-links"/></a>
-
-- [Google Sheets](https://github.com/ravarmes/recsys-rgrp-movielens/blob/master/docs/recsys-rgrp-movielens-example.xlsx) - Planilha para demonstrar a utilização do algoritmo para uma base de dados pequena (40 usuários e 20 filmes);
-- [Artigo](https://arxiv.org/pdf/1812.01504.pdf) - Fighting Fire with Fire: Using Antidote Data to Improve Polarization and Fairness of Recommender Systems;
 
 
 ## :memo: Licença <a name="-licenca"/></a>
