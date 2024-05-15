@@ -1,0 +1,24 @@
+Age
+Grupo 1: 5 elementos
+Grupo 2: 53 elementos
+Grupo 3: 142 elementos
+Grupo 4: 58 elementos
+Grupo 5: 24 elementos
+Grupo 6: 12 elementos
+Grupo 7: 6 elementos
+===============================
+Agglomerative
+Grupo 1: 146 elementos
+Grupo 2: 69 elementos
+Grupo 3: 42 elementos
+Grupo 4: 25 elementos
+Grupo 5: 18 elementos
+===============================
+Gender
+Grupo 1: 240 elementos
+Grupo 2: 60 elementos
+===============================
+Grupo 1: 15 elementos
+Grupo 2: 285 elementos
+===============================
+

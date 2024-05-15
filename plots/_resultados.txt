@@ -1,0 +1,87 @@
+==========================================
+Algorithm: RecSysALS
+Group (Rgrp Age): 0.0017027
+RgrpAge (age_00_17) : 0.8355848
+RgrpAge (age_18_24) : 0.8093482
+RgrpAge (age_25_34) : 0.7505571
+RgrpAge (age_35_44) : 0.7775164
+RgrpAge (age_45_49) : 0.7509080
+RgrpAge (age_50_55) : 0.6974159
+RgrpAge (age_56_00) : 0.7716997
+------------------------------------------
+Algorithm: RecSysNMF
+Group (Rgrp Age): 0.0016120
+RgrpAge (age_00_17) : 0.7717287
+RgrpAge (age_18_24) : 0.7343003
+RgrpAge (age_25_34) : 0.6766549
+RgrpAge (age_35_44) : 0.6940361
+RgrpAge (age_45_49) : 0.6967239
+RgrpAge (age_50_55) : 0.6588567
+RgrpAge (age_56_00) : 0.7630716
+------------------------------------------
+Algorithm: RecSysKNN
+Group (Rgrp Age): 0.0076711
+RgrpAge (age_00_17) : 1.1206043
+RgrpAge (age_18_24) : 1.2151433
+RgrpAge (age_25_34) : 1.0720398
+RgrpAge (age_35_44) : 0.9772514
+RgrpAge (age_45_49) : 0.9611199
+RgrpAge (age_50_55) : 1.1039704
+RgrpAge (age_56_00) : 0.9748200
+==========================================
+Algorithm: RecSysALS
+Group (Rgrp Gender): 0.0042653
+RgrpGender (masculine): 0.7406300
+RgrpGender (feminine) : 0.8712488
+------------------------------------------
+Algorithm: RecSysNMF
+Group (Rgrp Gender): 0.0030178
+RgrpGender (masculine): 0.6741322
+RgrpGender (feminine) : 0.7840013
+------------------------------------------
+Algorithm: RecSysKNN
+Group (Rgrp Gender): 0.0005350
+RgrpGender (masculine): 1.0599420
+RgrpGender (feminine) : 1.1062011
+==========================================
+------------------------------------------
+Algorithm: RecSysALS
+Group (Rgrp NR): 0.0012966
+RgrpNR (advantaged_group)   : 0.6991967
+RgrpNR (disadvantaged_group): 0.7712141
+------------------------------------------
+Algorithm: RecSysNMF
+Group (Rgrp NR): 0.0040016
+RgrpNR (advantaged_group)   : 0.5782639
+RgrpNR (disadvantaged_group): 0.7047802
+------------------------------------------
+Algorithm: RecSysKNN
+Group (Rgrp NR): 0.0019527
+RgrpNR (advantaged_group)   : 0.9870601
+RgrpNR (disadvantaged_group): 1.0754399
+==========================================
+------------------------------------------
+Algorithm: RecSysALS
+Group (Rgrp All): 0.0061508
+RgrpAll (1) : 0.7352054
+RgrpAll (2) : 0.7408430
+RgrpAll (3) : 0.8431107
+RgrpAll (4) : 0.7617414
+RgrpAll (5) : 0.9408125
+------------------------------------------
+Algorithm: RecSysNMF
+Group (Rgrp All): 0.0048747
+RgrpAll (1) : 0.6753650
+RgrpAll (2) : 0.6954240
+RgrpAll (3) : 0.7655907
+RgrpAll (4) : 0.6309879
+RgrpAll (5) : 0.8285309
+------------------------------------------
+Algorithm: RecSysKNN
+Group (Rgrp All): 0.0030414
+RgrpAll (1) : 1.1109219
+RgrpAll (2) : 0.9779038
+RgrpAll (3) : 1.1163396
+RgrpAll (4) : 1.0125284
+RgrpAll (5) : 1.0811366
+['0.0061508', '0.0048747', '0.0030414']
