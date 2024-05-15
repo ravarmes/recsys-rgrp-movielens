@@ -34,7 +34,7 @@ Este estudo investiga a equidade em sistemas de recomendação utilizando o data
 ### Funções de Objetivo Social (Social Objective Functions)
 
 * Individual fairness (Justiça Individual): a perda do usuário i é a estimativa do erro quadrático médio sobre as classificações conhecidas do usuário i;
-* (Justiça de Grupo): a perda do grupo Li como a estimativa do erro quadrático médio sobre todas as avaliações conhecidas no grupo i.
+* Group Fairness (Justiça de Grupo): a perda do grupo Li como a estimativa do erro quadrático médio sobre todas as avaliações conhecidas no grupo i.
 
 ### Arquivos
 
