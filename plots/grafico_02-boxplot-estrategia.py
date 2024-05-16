@@ -32,8 +32,8 @@ plt.xticks(fontsize=12)
 
 # Adicionando título e rótulos aos eixos
 plt.title('Distribuição da Injustiça por Estratégia de Filtragem', fontsize=14)
-plt.ylabel('Injustiça do Grupo', fontsize=14)
-plt.xlabel('Estratégias de Filtragem', fontsize=14)
+plt.ylabel('Injustiça de Grupo', fontsize=14)
+plt.xlabel('Estratégia de Filtragem', fontsize=14)
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 
 # Mostrando o gráfico

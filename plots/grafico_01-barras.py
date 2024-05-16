@@ -10,7 +10,8 @@ R_grp_NMF = [0.00301780, 0.00161200, 0.00400160, 0.00487470]
 R_grp_KNN = [0.00053500, 0.00767110, 0.00195270, 0.00304140]
 
 # Cores para cada agrupamento
-cores = ['blue', 'green', 'red', 'purple']
+# cores = ['blue', 'green', 'red', 'purple']
+cores = ['#17becf', '#9467bd', '#ff7f0e', '#2ca02c']
 
 # Criando a figura e os eixos para os gráficos
 fig, axs = plt.subplots(1, 3, figsize=(18, 6))
@@ -21,7 +22,7 @@ def adicionar_grafico(ax, dados, titulo, mostrar_ylabel):
     ax.set_title(titulo, fontsize=14)
     ax.set_xticks([])  # Remove os rótulos do eixo X
     if mostrar_ylabel:
-        ax.set_ylabel('Injustiça dos Grupos', fontsize=14)
+        ax.set_ylabel('Injustiça de Grupo', fontsize=14)
     ax.set_ylim(0.000, 0.008)  # Define os limites do eixo Y para todos os gráficos
 
 # Adicionando gráficos

@@ -44,7 +44,6 @@ Group (Rgrp Gender): 0.0005350
 RgrpGender (masculine): 1.0599420
 RgrpGender (feminine) : 1.1062011
 ==========================================
-------------------------------------------
 Algorithm: RecSysALS
 Group (Rgrp NR): 0.0012966
 RgrpNR (advantaged_group)   : 0.6991967
@@ -60,7 +59,6 @@ Group (Rgrp NR): 0.0019527
 RgrpNR (advantaged_group)   : 0.9870601
 RgrpNR (disadvantaged_group): 1.0754399
 ==========================================
-------------------------------------------
 Algorithm: RecSysALS
 Group (Rgrp All): 0.0061508
 RgrpAll (1) : 0.7352054
@@ -84,4 +82,4 @@ RgrpAll (2) : 0.9779038
 RgrpAll (3) : 1.1163396
 RgrpAll (4) : 1.0125284
 RgrpAll (5) : 1.0811366
-['0.0061508', '0.0048747', '0.0030414']
+==========================================

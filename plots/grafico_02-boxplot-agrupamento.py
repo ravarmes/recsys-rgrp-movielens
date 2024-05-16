@@ -26,7 +26,7 @@ plt.boxplot(dados_agrupamentos, labels=agrupamentos)
 
 # Adicionando título e rótulos aos eixos
 plt.title('Comparação de Injustiça por Agrupamento', fontsize=14)
-plt.ylabel('Injustiça do Grupo', fontsize=12)
+plt.ylabel('Injustiça de Grupo', fontsize=12)
 plt.xlabel('Agrupamentos de Usuários', fontsize=12)
 
 # Mostrando o gráfico
