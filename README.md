@@ -3,10 +3,10 @@
 </h1>
 
 <h3 align="center">
-  Análise de Justiça de Grupo no Dataset MovieLens
+  Group Fairness Analysis in the MovieLens Dataset
 </h3>
 
-<p align="center">Exemplo de agrupamentos utilizando medidas de justiça social </p>
+<p align="center">Example of Clustering Using Social Justice Measures</p>
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ravarmes/recsys-rgrp-movielens?color=%2304D361">
@@ -23,41 +23,40 @@
 </p>
 
 <p align="center">
-  <a href="#-sobre">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licenca">Licença</a>
+  <a href="#-sobre">About the Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-licenca">License</a>
 </p>
 
-## :page_with_curl: Sobre o projeto <a name="-sobre"/></a>
+## :page_with_curl: About the Project <a name="-sobre"/></a>
 
-Este estudo investiga a equidade em sistemas de recomendação utilizando o dataset MovieLens, aplicando estratégias de filtragem colaborativa: ALS, KNN e NMF. Avaliamos a injustiça em diferentes configurações de agrupamento: Gênero, Idade, Avaliações e Aglomerativo. Os resultados indicam variações significativas de injustiça entre as estratégias, com o método Aglomerativo destacando-se por apresentar os maiores níveis de injustiça do grupo na maioria das abordagens. Esta análise sugere a necessidade de uma seleção cuidadosa da estratégia de filtragem e do método de agrupamento para promover sistemas de recomendação mais justos e inclusivos, destacando a importância de considerar múltiplas dimensões de injustiça na concepção destes sistemas.
+This study investigates fairness in recommendation systems using the MovieLens dataset, applying collaborative filtering strategies: ALS, KNN, and NMF. We assess unfairness across different clustering configurations: Gender, Age, Activity, and Agglomerative. The results indicate significant variations in unfairness among the strategies, with the Agglomerative method standing out for exhibiting the highest levels of group unfairness in most approaches. This analysis suggests the need for careful selection of both filtering strategy and clustering method to promote fairer and more inclusive recommendation systems, highlighting the importance of considering multiple dimensions of unfairness in the design of these systems.
 
-### Funções de Objetivo Social (Social Objective Functions)
+### Social Objective Functions
 
-* Individual fairness (Justiça Individual): a perda do usuário i é a estimativa do erro quadrático médio sobre as classificações conhecidas do usuário i;
-* Group Fairness (Justiça de Grupo): a perda do grupo Li como a estimativa do erro quadrático médio sobre todas as avaliações conhecidas no grupo i.
+* Individual fairness: the loss of user \(i\) is the estimated mean squared error over the known ratings of user \(i\);
+* Group fairness: the loss of group \(L_i\) is the estimated mean squared error over all the known ratings in group \(i\).
 
-### Arquivos
+### Files
 
-| Arquivo                               | Descrição                                                                                                                                                                                                                                   |
+| File                               | Description                                                                                                                                                                                                                                   |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| AlgorithmImpartiality                | Classe para promover justiça nas recomendações de algoritmos de sistemas de recomendação.                                                                                                                                                   |
-| AlgorithmUserFairness                | Classes para medir a justiça (polarização, justiça individual e justiça do grupo) das recomendações de algoritmos de sistemas de recomendação.                                                                                               |
-| RecSys                               | Classe no padrão fábrica para instanciar um sistema de recomendação com base em parâmetros string.                                                                                                                                           |
-| RecSysALS                            | Alternating Least Squares (ALS) para Filtragem Colaborativa é um algoritmo que otimiza iterativamente duas matrizes para melhor prever avaliações de usuários em itens, baseando-se na ideia de fatoração de matrizes.                       |
-| RecSysKNN                            | K-Nearest Neighbors para Sistemas de Recomendação é um método que recomenda itens ou usuários baseando-se na proximidade ou similaridade entre eles, utilizando a técnica dos K vizinhos mais próximos.                                      |
-| RecSysNMF                            | Non-Negative Matrix Factorization para Sistemas de Recomendação utiliza a decomposição de uma matriz de avaliações em duas matrizes de fatores não-negativos, revelando padrões latentes que podem ser usados para prever avaliações faltantes. |
-| Test_FairnessGroup_MovieLens_Age         | Script de teste do algoritmo de medidas de justiça (AlgorithmUserFairness) considerando o agrupamento dos usuários por idade                                                                                                |
-| Test_FairnessGroup_MovieLens_Agglomerative         | Script de teste do algoritmo de medidas de justiça (AlgorithmUserFairness) considerando o agrupamento aglomerativo                                                                                                |
-| Test_FairnessGroup_MovieLens_Gender         | Script de teste do algoritmo de medidas de justiça (AlgorithmUserFairness) considerando o agrupamento dos usuários por gênero                                                                                                |
-| Test_FairnessGroup_MovieLens_NR         | Script de teste do algoritmo de medidas de justiça (AlgorithmUserFairness) considerando o agrupamento dos usuários por número de avaliações                                                                                                |
+| AlgorithmImpartiality                | Class to Promote Fairness in Recommendation Algorithms of Recommendation Systems.                                                                                                                                                   |
+| AlgorithmUserFairness                | Classes to Measure Fairness (Polarization, Individual Fairness, and Group Fairness) of Recommendation Algorithms in Recommendation Systems.                                                                                               |
+| RecSys                               | Factory Class to Instantiate a Recommendation System Based on String Parameters.                                                                                                                                           |
+| RecSysALS                            | Alternating Least Squares (ALS) for Collaborative Filtering is an algorithm that iteratively optimizes two matrices to better predict user ratings on items, based on the idea of matrix factorization.                       |
+| RecSysKNN                            | K-Nearest Neighbors for Recommendation Systems is a method that recommends items or users based on the proximity or similarity between them, utilizing the technique of K nearest neighbors.                                      |
+| RecSysNMF                            | Non-Negative Matrix Factorization for Recommendation Systems decomposes a rating matrix into two non-negative factor matrices, revealing latent patterns that can be used to predict missing ratings. |
+| Test_FairnessGroup_MovieLens_Age         | Test script for the fairness measurement algorithm (AlgorithmUserFairness) considering user grouping by age.                                                                                                |
+| Test_FairnessGroup_MovieLens_Agglomerative         | Test script for the fairness measurement algorithm (AlgorithmUserFairness) considering agglomerative clustering.                                                                                                |
+| Test_FairnessGroup_MovieLens_Gender         | Test script for the fairness measurement algorithm (AlgorithmUserFairness) considering user grouping by gender.                                                                                                |
+| Test_FairnessGroup_MovieLens_NR         | Test script for the fairness measurement algorithm (AlgorithmUserFairness) considering user grouping by the number of ratings.                                                                                                |
 
 
+## :memo: License <a name="-licenca"/></a>
 
-## :memo: Licença <a name="-licenca"/></a>
+This project is under the MIT License. See the [LICENSE](LICENSE.md) file for more details.
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
-
-## :email: Contato
+## :email: Contact
 
 Rafael Vargas Mesquita - [GitHub](https://github.com/ravarmes) - [LinkedIn](https://www.linkedin.com/in/rafael-vargas-mesquita) - [Lattes](http://lattes.cnpq.br/6616283627544820) - **ravarmes@hotmail.com**
 
