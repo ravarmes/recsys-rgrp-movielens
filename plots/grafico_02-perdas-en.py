@@ -3,11 +3,11 @@ import numpy as np
 
 # Dados fornecidos
 data = {
-    "ALS | Gênero | 0.0042653": {
-        "Masculino": 0.7406300,
-        "Feminino": 0.8712488
+    "ALS | Gender | 0.0042653": {
+        "Male": 0.7406300,
+        "Female": 0.8712488
     },
-    "ALS | Idade | 0.0017027": {
+    "ALS | Age | 0.0017027": {
         "00": 0.8355848,
         "18": 0.8093482,
         "25": 0.7505571,
@@ -16,22 +16,22 @@ data = {
         "50": 0.6974159,
         "56": 0.7716997
     },
-    "ALS | Avaliações | 0.0012966": {
-        "Favorecidos": 0.6991967,
-        "Desfavorecidos": 0.7712141
+    "ALS | Activity | 0.0012966": {
+        "Active": 0.6991967,
+        "Inactive": 0.7712141
     },
-    "ALS | Aglomerativo | 0.0061508": {
+    "ALS | Agglomerative | 0.0061508": {
         "G1": 0.7352054,
         "G2": 0.7408430,
         "G3": 0.8431107,
         "G4": 0.7617414,
         "G5": 0.9408125
     },
-    "NMF | Gênero | 0.0030178": {
-        "Masculino": 0.6741322,
-        "Feminino": 0.7840013
+    "NMF | Gender | 0.0030178": {
+        "Male": 0.6741322,
+        "Female": 0.7840013
     },
-    "NMF | Idade | 0.0016120": {
+    "NMF | Age | 0.0016120": {
         "00": 0.7717287,
         "18": 0.7343003,
         "25": 0.6766549,
@@ -40,22 +40,22 @@ data = {
         "50": 0.6588567,
         "56": 0.7630716
     },
-    "NMF | Avaliações | 0.0040016": {
-        "Favorecidos": 0.5782639,
-        "Desfavorecidos": 0.7047802
+    "NMF | Activity | 0.0040016": {
+        "Active": 0.5782639,
+        "Inactive": 0.7047802
     },
-    "NMF | Aglomerativo | 0.0048747": {
+    "NMF | Agglomerative | 0.0048747": {
         "G1": 0.6753650,
         "G2": 0.6954240,
         "G3": 0.7655907,
         "G4": 0.6309879,
         "G5": 0.8285309
     },
-    "KNN | Gênero | 0.0005350": {
-        "Masculino": 1.0599420,
-        "Feminino": 1.1062011
+    "KNN | Gender | 0.0005350": {
+        "Male": 1.0599420,
+        "Female": 1.1062011
     },
-    "KNN | Idade | 0.0076711": {
+    "KNN | Age | 0.0076711": {
         "00": 1.1206043,
         "18": 1.2151433,
         "25": 1.0720398,
@@ -64,11 +64,11 @@ data = {
         "50": 1.1039704,
         "56": 0.9748200
     },
-    "KNN | Avaliações | 0.0019527": {
-        "Favorecidos": 0.9870601,
-        "Desfavorecidos": 1.0754399
+    "KNN | Activity | 0.0019527": {
+        "Active": 0.9870601,
+        "Inactive": 1.0754399
     },
-    "KNN | Aglomerativo | 0.0030414": {
+    "KNN | Agglomerative | 0.0030414": {
         "G1": 1.1109219,
         "G2": 0.9779038,
         "G3": 1.1163396,
@@ -79,18 +79,18 @@ data = {
 
 # Definindo os títulos dos subplots
 titles = [
-    "ALS - Gênero",
-    "ALS - Idade",
-    "ALS - Avaliações",
-    "ALS - Aglomerativo",
-    "NMF - Gênero",
-    "NMF - Idade",
-    "NMF - Avaliações",
-    "NMF - Aglomerativo",
-    "KNN - Gênero",
-    "KNN - Idade",
-    "KNN - Avaliações",
-    "KNN - Aglomerativo"
+    "ALS - Gender",
+    "ALS - Age",
+    "ALS - Activity",
+    "ALS - Agglomerative",
+    "NMF - Gender",
+    "NMF - Age",
+    "NMF - Activity",
+    "NMF - Agglomerative",
+    "KNN - Gender",
+    "KNN - Age",
+    "KNN - Activity",
+    "KNN - Agglomerative"
 ]
 
 # Paletas de cores
@@ -124,7 +124,7 @@ for i, (alg, groups) in enumerate(data.items()):
     for j, (group, loss) in enumerate(groups.items()):
         ax.bar(group, loss, color=colors[j % len(colors)])
     if i in [0, 4, 8]:  # Apenas para os subplots 1, 5 e 9
-        ax.set_ylabel('Perda de Grupo')
+        ax.set_ylabel('Group Loss')
     else:
         ax.set_yticklabels([])  # Remove os rótulos do eixo y para os outros subplots
     ax.set_ylim(0, 1.23)  # Definindo a escala do eixo y

@@ -31,9 +31,9 @@ plt.boxplot(dados_boxplot, labels=estrategias, patch_artist=True, showmeans=True
 plt.xticks(fontsize=12)
 
 # Adicionando título e rótulos aos eixos
-plt.title('Distribuição da Injustiça por Estratégia de Filtragem', fontsize=14)
-plt.ylabel('Injustiça de Grupo', fontsize=14)
-plt.xlabel('Estratégia de Filtragem', fontsize=14)
+plt.title('Distribution of Unfairness by Filtering Strategy', fontsize=14)
+plt.ylabel('Group Unfairness', fontsize=14)
+plt.xlabel('Filtering Strategy', fontsize=14)
 plt.grid(axis='y', linestyle='--', alpha=0.7)
 
 # Mostrando o gráfico
