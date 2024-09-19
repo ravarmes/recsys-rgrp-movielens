@@ -3,10 +3,10 @@
 </h1>
 
 <h3 align="center">
-  Group Fairness Analysis in the MovieLens Dataset
+  Group Fairness in Recommendation Systems: MovieLens Dataset
 </h3>
 
-<p align="center">Example of Clustering Using Social Justice Measures</p>
+<p align="center">Example of Clustering Using Social Fairness Measures</p>
 
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ravarmes/recsys-rgrp-movielens?color=%2304D361">
