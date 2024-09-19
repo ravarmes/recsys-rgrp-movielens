@@ -34,7 +34,7 @@ for algorithm in algorithms:
     X, users_info, items_info = recsys.read_movielens_1M(n_users, n_items, top_users, top_items, data_dir = Data_path) # returns matrix of ratings with n_users rows and n_items columns
     omega = ~X.isnull() # matrix X with True in cells with evaluations and False in cells not rated
 
-    X_est = recsys.compute_X_est(X, algorithm) # RecSysALS or RecSysKNN or RecSysNMF or RecSysSVD
+    X_est = recsys.compute_X_est(X, algorithm) # RecSysALS or RecSysKNN or RecSysNMF
 
     ilv = IndividualLossVariance(X, omega, 1)
     losses = ilv.get_losses(X_est)
