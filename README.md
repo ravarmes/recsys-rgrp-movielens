@@ -31,6 +31,10 @@
 
 This study investigates fairness in recommendation systems using the MovieLens dataset, applying collaborative filtering strategies: ALS, KNN, and NMF. We assess unfairness across different clustering configurations: Gender, Age, Activity, and Agglomerative. The results indicate significant variations in unfairness among the strategies, with the Agglomerative method standing out for exhibiting the highest levels of group unfairness in most approaches. This analysis suggests the need for careful selection of both filtering strategy and clustering method to promote fairer and more inclusive recommendation systems, highlighting the importance of considering multiple dimensions of unfairness in the design of these systems.
 
+<h1 align="center">
+    <img alt="abstract" src="https://github.com/ravarmes/recsys-rgrp-movielens/blob/main/assets/graphical_abstract.png" />
+</h1>
+
 ### Social Objective Functions
 
 * Individual fairness: the loss of user \(i\) is the estimated mean squared error over the known ratings of user \(i\);

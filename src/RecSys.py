@@ -2,7 +2,6 @@ import pandas as pd
 import RecSysALS
 import RecSysKNN
 import RecSysNMF
-import RecSysSVD
 
 class RecSys():
         
@@ -205,9 +204,6 @@ class RecSys():
         elif(algorithm == 'RecSysNMF'):
             # RS = RecSysNMF.RecSysNMF(n_components=5, ratings=X)
             RS = RecSysNMF.RecSysNMF(n_components=5, ratings=X)
-            X_est = RS.fit_model()
-        elif(algorithm == 'RecSysSVD'):
-            RS = RecSysSVD.RecSysSVD(k=50, ratings=X)
             X_est = RS.fit_model()
         else:
             RecSysNMF

@@ -27,7 +27,7 @@ for algorithm in algorithms:
     X, users_info, items_info = recsys.read_movielens_1M(n_users, n_items, top_users, top_items, data_dir = Data_path) # returns matrix of ratings with n_users rows and n_items columns
     omega = ~X.isnull() # matrix X with True in cells with evaluations and False in cells not rated
 
-    X_est = recsys.compute_X_est(X, algorithm) # RecSysALS or RecSysKNN or RecSysNMF or RecSysSVD
+    X_est = recsys.compute_X_est(X, algorithm) # RecSysALS or RecSysKNN or RecSysNMF
 
     # Group fairness. Let I be the set of all users/items and G = {G1 . . . ,Gg} be a partition of users/items into g groups. 
     # The loss of group i as the mean squared estimation error over all known ratings in group i
