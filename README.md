@@ -55,6 +55,10 @@ This study investigates fairness in recommendation systems using the MovieLens d
 | Test_FairnessGroup_MovieLens_Gender         | Test script for the fairness measurement algorithm (AlgorithmUserFairness) considering user grouping by gender.                                                                                                |
 | Test_FairnessGroup_MovieLens_NR         | Test script for the fairness measurement algorithm (AlgorithmUserFairness) considering user grouping by the number of ratings.                                                                                                |
 
+## 📺 Video Abstract
+
+Check out the explanatory video for this project on [YouTube](https://youtu.be/hLxu3KoDw_U).
+
 
 ## :memo: License <a name="-licenca"/></a>
 
