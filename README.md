@@ -57,7 +57,7 @@ This study investigates fairness in recommendation systems using the MovieLens d
 
 ## 📺 Video Abstract
 
-Check out the explanatory video for this project on [YouTube](https://youtu.be/hLxu3KoDw_U).
+Check out the explanatory video for this project on [YouTube](https://youtu.be/AUhsiSWMjzA).
 
 
 ## :memo: License <a name="-licenca"/></a>
