@@ -3,12 +3,12 @@ import numpy as np
 from math import pi
 
 # Dados
-categorias = ['Gender', 'Age', 'Activity', 'Agglomerative']
-estrategias = ['ALS', 'NMF', 'KNN']
+categorias = ['Activity', 'Age', 'Gender', 'Agglomerative']
+estrategias = ['ALS', 'NCF', 'CBF']
 dados = [
-    [0.00426530, 0.00170270, 0.00129660, 0.00615080],  # ALS
-    [0.00301780, 0.00161200, 0.00400160, 0.00487470],  # NMF
-    [0.00053500, 0.00767110, 0.00195270, 0.00304140]   # KNN
+    [0.0006405, 0.0006335, 0.0008252, 0.0009184],  # ALS
+    [0.0002518, 0.0009184, 0.0013087, 0.0014805],  # NCF
+    [0.0011641, 0.0022225, 0.0002542, 0.0019898]   # CBF
 ]
 
 # Cores personalizadas para o subplot 1
@@ -26,7 +26,7 @@ angles += angles[:1]
 
 fig, axs = plt.subplots(1, 2, figsize=(12, 6), subplot_kw=dict(polar=True))
 
-show_ticks = [0.004, 0.008]
+show_ticks = [0.0005, 0.0010]
 
 # Primeiro gráfico de radar
 for i, estrategia in enumerate(dados):
@@ -38,7 +38,7 @@ axs[0].set_title('Perspective by Filtering Strategies', y=1.1, fontsize=14)
 axs[0].legend(loc='lower right', fontsize=10)  # Aumentando o tamanho da fonte da legenda
 
 axs[0].set_yticks(show_ticks)
-axs[0].set_yticklabels([f'{tick:.3f}' for tick in show_ticks], fontsize=12)  # Configurando rótulos dos ticks
+axs[0].set_yticklabels([f'{tick:.4f}' for tick in show_ticks], fontsize=12)  # Configurando rótulos dos ticks
 
 # Segundo gráfico de radar - Inversão de perspectiva
 # Preparando dados para o segundo gráfico
@@ -63,7 +63,7 @@ axs[1].legend(loc='lower right', fontsize=10)  # Aumentando o tamanho da fonte d
 
 # Configurando os valores no eixo radial
 axs[1].set_yticks(show_ticks)
-axs[1].set_yticklabels([f'{tick:.3f}' for tick in show_ticks], fontsize=12)  # Configurando rótulos dos ticks
+axs[1].set_yticklabels([f'{tick:.4f}' for tick in show_ticks], fontsize=12)  # Configurando rótulos dos ticks
 
 plt.tight_layout()
 plt.show()

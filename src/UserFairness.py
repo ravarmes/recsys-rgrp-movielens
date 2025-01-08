@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+from sklearn.metrics import mean_squared_error
 
 class UserFairness():
         
@@ -152,3 +153,17 @@ class GroupLossVariance():
         if self.axis == 0:
             G = G.T
         return  G
+
+#######################################################################################################################
+
+class RMSE():
+    
+    def __init__(self, X, omega):
+        self.omega = omega
+        self.X = X.mask(~omega)        
+        
+    def evaluate(self, X_est):
+        X_not_na = self.X.values[~np.isnan(self.X.values)]
+        X_est_not_na = X_est.values[~np.isnan(self.X.values)]
+        
+        return np.sqrt(mean_squared_error(X_not_na, X_est_not_na))

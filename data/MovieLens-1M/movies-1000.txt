@@ -1,0 +1,1000 @@
+American Beauty (1999)::Comedy|Drama
+Star Wars: Episode IV - A New Hope (1977)::Action|Adventure|Fantasy|Sci-Fi
+Star Wars: Episode V - The Empire Strikes Back (1980)::Action|Adventure|Drama|Sci-Fi|War
+Star Wars: Episode VI - Return of the Jedi (1983)::Action|Adventure|Romance|Sci-Fi|War
+Jurassic Park (1993)::Action|Adventure|Sci-Fi
+Saving Private Ryan (1998)::Action|Drama|War
+Terminator 2: Judgment Day (1991)::Action|Sci-Fi|Thriller
+Matrix, The (1999)::Action|Sci-Fi|Thriller
+Back to the Future (1985)::Comedy|Sci-Fi
+Silence of the Lambs, The (1991)::Drama|Thriller
+Men in Black (1997)::Action|Adventure|Comedy|Sci-Fi
+Raiders of the Lost Ark (1981)::Action|Adventure
+Fargo (1996)::Crime|Drama|Thriller
+Sixth Sense, The (1999)::Thriller
+Braveheart (1995)::Action|Drama|War
+Shakespeare in Love (1998)::Comedy|Romance
+Princess Bride, The (1987)::Action|Adventure|Comedy|Romance
+Schindler's List (1993)::Drama|War
+L.A. Confidential (1997)::Crime|Film-Noir|Mystery|Thriller
+Groundhog Day (1993)::Comedy|Romance
+E.T. the Extra-Terrestrial (1982)::Children's|Drama|Fantasy|Sci-Fi
+Star Wars: Episode I - The Phantom Menace (1999)::Action|Adventure|Fantasy|Sci-Fi
+Being John Malkovich (1999)::Comedy
+Shawshank Redemption, The (1994)::Drama
+Godfather, The (1972)::Action|Crime|Drama
+Forrest Gump (1994)::Comedy|Romance|War
+Ghostbusters (1984)::Comedy|Horror
+Pulp Fiction (1994)::Crime|Drama
+Terminator, The (1984)::Action|Sci-Fi|Thriller
+Toy Story (1995)::Animation|Children's|Comedy
+Alien (1979)::Action|Horror|Sci-Fi|Thriller
+Total Recall (1990)::Action|Adventure|Sci-Fi|Thriller
+Fugitive, The (1993)::Action|Thriller
+Gladiator (2000)::Action|Drama
+Aliens (1986)::Action|Sci-Fi|Thriller|War
+Blade Runner (1982)::Film-Noir|Sci-Fi
+Who Framed Roger Rabbit? (1988)::Adventure|Animation|Film-Noir
+Stand by Me (1986)::Adventure|Comedy|Drama
+Usual Suspects, The (1995)::Crime|Thriller
+Babe (1995)::Children's|Comedy|Drama
+Airplane! (1980)::Comedy
+Independence Day (ID4) (1996)::Action|Sci-Fi|War
+Galaxy Quest (1999)::Adventure|Comedy|Sci-Fi
+One Flew Over the Cuckoo's Nest (1975)::Drama
+Wizard of Oz, The (1939)::Adventure|Children's|Drama|Musical
+2001: A Space Odyssey (1968)::Drama|Mystery|Sci-Fi|Thriller
+Abyss, The (1989)::Action|Adventure|Sci-Fi|Thriller
+Bug's Life, A (1998)::Animation|Children's|Comedy
+Jaws (1975)::Action|Horror
+Godfather: Part II, The (1974)::Action|Crime|Drama
+Casablanca (1942)::Drama|Romance|War
+Die Hard (1988)::Action|Thriller
+GoodFellas (1990)::Crime|Drama
+Hunt for Red October, The (1990)::Action|Thriller
+Speed (1994)::Action|Romance|Thriller
+Indiana Jones and the Last Crusade (1989)::Action|Adventure
+Lethal Weapon (1987)::Action|Comedy|Crime|Drama
+Monty Python and the Holy Grail (1974)::Comedy
+Toy Story 2 (1999)::Animation|Children's|Comedy
+When Harry Met Sally... (1989)::Comedy|Romance
+Good Will Hunting (1997)::Drama
+Titanic (1997)::Drama|Romance
+Breakfast Club, The (1985)::Comedy|Drama
+Mission: Impossible (1996)::Action|Adventure|Mystery
+Election (1999)::Comedy
+Twelve Monkeys (1995)::Drama|Sci-Fi
+X-Men (2000)::Action|Sci-Fi
+Beetlejuice (1988)::Comedy|Fantasy
+Big (1988)::Comedy|Fantasy
+Edward Scissorhands (1990)::Drama|Romance
+Ferris Bueller's Day Off (1986)::Comedy
+Dances with Wolves (1990)::Adventure|Drama|Western
+Fight Club (1999)::Drama
+Close Encounters of the Third Kind (1977)::Drama|Sci-Fi
+Star Trek: The Wrath of Khan (1982)::Action|Adventure|Sci-Fi
+Raising Arizona (1987)::Comedy
+Austin Powers: The Spy Who Shagged Me (1999)::Comedy
+Batman (1989)::Action|Adventure|Crime|Drama
+As Good As It Gets (1997)::Comedy|Drama
+Face/Off (1997)::Action|Sci-Fi|Thriller
+Butch Cassidy and the Sundance Kid (1969)::Action|Comedy|Western
+Thelma & Louise (1991)::Action|Drama
+Clerks (1994)::Comedy
+True Lies (1994)::Action|Adventure|Comedy|Romance
+American Pie (1999)::Comedy
+Amadeus (1984)::Drama
+Contact (1997)::Drama|Sci-Fi
+Fifth Element, The (1997)::Action|Sci-Fi
+High Fidelity (2000)::Comedy
+There's Something About Mary (1998)::Comedy
+Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)::Sci-Fi|War
+Arachnophobia (1990)::Action|Comedy|Sci-Fi|Thriller
+Clueless (1995)::Comedy|Romance
+Get Shorty (1995)::Action|Comedy|Drama
+Jerry Maguire (1996)::Drama|Romance
+Christmas Story, A (1983)::Comedy|Drama
+Aladdin (1992)::Animation|Children's|Comedy|Musical
+Romancing the Stone (1984)::Action|Adventure|Comedy|Romance
+Blues Brothers, The (1980)::Action|Comedy|Musical
+Rock, The (1996)::Action|Adventure|Thriller
+Annie Hall (1977)::Comedy|Romance
+Talented Mr. Ripley, The (1999)::Drama|Mystery|Thriller
+Rain Man (1988)::Drama
+Chicken Run (2000)::Animation|Children's|Comedy
+Fish Called Wanda, A (1988)::Comedy
+North by Northwest (1959)::Drama|Thriller
+Erin Brockovich (2000)::Drama
+Willy Wonka and the Chocolate Factory (1971)::Adventure|Children's|Comedy|Fantasy
+Mission: Impossible 2 (2000)::Action|Thriller
+Star Trek: First Contact (1996)::Action|Adventure|Sci-Fi
+Predator (1987)::Action|Sci-Fi|Thriller
+South Park: Bigger, Longer and Uncut (1999)::Animation|Comedy
+Psycho (1960)::Horror|Thriller
+Graduate, The (1967)::Drama|Romance
+Reservoir Dogs (1992)::Crime|Thriller
+Lost World: Jurassic Park, The (1997)::Action|Adventure|Sci-Fi|Thriller
+Full Metal Jacket (1987)::Action|Drama|War
+Apollo 13 (1995)::Drama
+Taxi Driver (1976)::Drama|Thriller
+Patriot, The (2000)::Action|Drama|War
+Blair Witch Project, The (1999)::Horror
+Four Weddings and a Funeral (1994)::Comedy|Romance
+Rocky Horror Picture Show, The (1975)::Comedy|Horror|Musical|Sci-Fi
+Crying Game, The (1992)::Drama|Romance|War
+Clockwork Orange, A (1971)::Sci-Fi
+Robocop (1987)::Action|Crime|Sci-Fi
+Superman (1978)::Action|Adventure|Sci-Fi
+Green Mile, The (1999)::Drama|Thriller
+Rushmore (1998)::Comedy
+Animal House (1978)::Comedy
+Austin Powers: International Man of Mystery (1997)::Comedy
+Full Monty, The (1997)::Comedy
+Young Frankenstein (1974)::Comedy|Horror
+Chinatown (1974)::Film-Noir|Mystery|Thriller
+Mask, The (1994)::Comedy|Crime|Fantasy
+Sling Blade (1996)::Drama|Thriller
+Apocalypse Now (1979)::Drama|War
+Starship Troopers (1997)::Action|Adventure|Sci-Fi|War
+Splash (1984)::Comedy|Fantasy|Romance
+Planet of the Apes (1968)::Action|Sci-Fi
+Back to the Future Part II (1989)::Comedy|Sci-Fi
+Pleasantville (1998)::Comedy
+Gone with the Wind (1939)::Drama|Romance|War
+Life Is Beautiful (La Vita è bella) (1997)::Comedy|Drama
+Back to the Future Part III (1990)::Comedy|Sci-Fi|Western
+Platoon (1986)::Drama|War
+Seven (Se7en) (1995)::Crime|Thriller
+Grosse Pointe Blank (1997)::Comedy|Crime
+Die Hard 2 (1990)::Action|Thriller
+Rocky (1976)::Action|Drama
+Boogie Nights (1997)::Drama
+Indiana Jones and the Temple of Doom (1984)::Action|Adventure
+Untouchables, The (1987)::Action|Crime|Drama
+Star Trek IV: The Voyage Home (1986)::Action|Adventure|Sci-Fi
+Ghost (1990)::Comedy|Romance|Thriller
+Lion King, The (1994)::Animation|Children's|Musical
+Wayne's World (1992)::Comedy
+Blazing Saddles (1974)::Comedy|Western
+This Is Spinal Tap (1984)::Comedy|Drama|Musical
+Stargate (1994)::Action|Adventure|Sci-Fi
+Citizen Kane (1941)::Drama
+Magnolia (1999)::Drama
+Glory (1989)::Action|Drama|War
+Twister (1996)::Action|Adventure|Romance|Thriller
+Armageddon (1998)::Action|Adventure|Sci-Fi|Thriller
+M*A*S*H (1970)::Comedy|War
+League of Their Own, A (1992)::Comedy|Drama
+Big Lebowski, The (1998)::Comedy|Crime|Mystery|Thriller
+Bull Durham (1988)::Comedy
+Sneakers (1992)::Crime|Drama|Sci-Fi
+Thomas Crown Affair, The (1999)::Action|Thriller
+Shining, The (1980)::Horror
+My Cousin Vinny (1992)::Comedy
+Good Morning, Vietnam (1987)::Comedy|Drama|War
+Gattaca (1997)::Drama|Sci-Fi|Thriller
+Air Force One (1997)::Action|Thriller
+Mars Attacks! (1996)::Action|Comedy|Sci-Fi|War
+Run Lola Run (Lola rennt) (1998)::Action|Crime|Romance
+Fly, The (1986)::Horror|Sci-Fi
+Sleepy Hollow (1999)::Horror|Romance
+Mad Max (1979)::Action|Sci-Fi
+Few Good Men, A (1992)::Crime|Drama
+Beauty and the Beast (1991)::Animation|Children's|Musical
+Clear and Present Danger (1994)::Action|Adventure|Thriller
+African Queen, The (1951)::Action|Adventure|Romance|War
+Patriot Games (1992)::Action|Thriller
+Rear Window (1954)::Mystery|Thriller
+Sting, The (1973)::Comedy|Crime
+Pretty Woman (1990)::Comedy|Romance
+Witness (1985)::Drama|Romance|Thriller
+Honey, I Shrunk the Kids (1989)::Adventure|Children's|Comedy|Fantasy|Sci-Fi
+Maltese Falcon, The (1941)::Film-Noir|Mystery
+Little Mermaid, The (1989)::Animation|Children's|Comedy|Musical|Romance
+Mad Max 2 (a.k.a. The Road Warrior) (1981)::Action|Sci-Fi
+American President, The (1995)::Comedy|Drama|Romance
+Batman Returns (1992)::Action|Adventure|Comedy|Crime
+Three Kings (1999)::Drama|War
+Perfect Storm, The (2000)::Action|Adventure|Thriller
+Mary Poppins (1964)::Children's|Comedy|Musical
+Lethal Weapon 2 (1989)::Action|Comedy|Crime|Drama
+Top Gun (1986)::Action|Romance
+Time Bandits (1981)::Adventure|Fantasy|Sci-Fi
+Mummy, The (1999)::Action|Adventure|Horror|Thriller
+Cocoon (1985)::Comedy|Sci-Fi
+Truman Show, The (1998)::Drama
+Boat, The (Das Boot) (1981)::Action|Drama|War
+Star Trek VI: The Undiscovered Country (1991)::Action|Adventure|Sci-Fi
+Unforgiven (1992)::Western
+Nightmare Before Christmas, The (1993)::Children's|Comedy|Musical
+X-Files: Fight the Future, The (1998)::Mystery|Sci-Fi|Thriller
+Almost Famous (2000)::Comedy|Drama
+Star Trek: Generations (1994)::Action|Adventure|Sci-Fi
+American Graffiti (1973)::Comedy|Drama
+English Patient, The (1996)::Drama|Romance|War
+Dogma (1999)::Comedy
+Enemy of the State (1998)::Action|Thriller
+Sleepless in Seattle (1993)::Comedy|Romance
+Mask of Zorro, The (1998)::Action|Adventure|Romance
+Moonstruck (1987)::Comedy
+Leaving Las Vegas (1995)::Drama|Romance
+Player, The (1992)::Comedy|Drama
+Last of the Mohicans, The (1992)::Action|Romance|War
+In the Line of Fire (1993)::Action|Thriller
+Tron (1982)::Action|Adventure|Fantasy|Sci-Fi
+Caddyshack (1980)::Comedy
+Chasing Amy (1997)::Drama|Romance
+Con Air (1997)::Action|Adventure|Thriller
+Dave (1993)::Comedy|Romance
+Nutty Professor, The (1996)::Comedy|Fantasy|Romance|Sci-Fi
+Army of Darkness (1993)::Action|Adventure|Comedy|Horror|Sci-Fi
+Eyes Wide Shut (1999)::Drama
+Fisher King, The (1991)::Comedy|Drama|Romance
+Fantasia (1940)::Animation|Children's|Musical
+Heat (1995)::Action|Crime|Thriller
+Bridge on the River Kwai, The (1957)::Drama|War
+Elizabeth (1998)::Drama
+Little Shop of Horrors (1986)::Comedy|Horror|Musical
+Bowfinger (1999)::Comedy
+Cool Hand Luke (1967)::Comedy|Drama
+Dead Man Walking (1995)::Drama
+To Kill a Mockingbird (1962)::Drama
+Ed Wood (1994)::Comedy|Drama
+Star Trek III: The Search for Spock (1984)::Action|Adventure|Sci-Fi
+Monty Python's Life of Brian (1979)::Comedy
+Alien³ (1992)::Action|Horror|Sci-Fi|Thriller
+Professional, The (a.k.a. Leon: The Professional) (1994)::Crime|Drama|Romance|Thriller
+From Dusk Till Dawn (1996)::Action|Comedy|Crime|Horror|Thriller
+Say Anything... (1989)::Comedy|Drama|Romance
+Brazil (1985)::Sci-Fi
+Crocodile Dundee (1986)::Adventure|Comedy
+Wedding Singer, The (1998)::Comedy|Romance
+Out of Sight (1998)::Action|Crime|Romance
+U-571 (2000)::Action|Thriller
+Wag the Dog (1997)::Comedy|Drama
+Vertigo (1958)::Mystery|Thriller
+Wild Wild West (1999)::Action|Sci-Fi|Western
+Spaceballs (1987)::Comedy|Sci-Fi
+Goldfinger (1964)::Action
+Deep Impact (1998)::Action|Drama|Sci-Fi|Thriller
+GoldenEye (1995)::Action|Adventure|Thriller
+Scream (1996)::Horror|Thriller
+Fast Times at Ridgemont High (1982)::Comedy
+Grifters, The (1990)::Crime|Drama|Film-Noir
+Exorcist, The (1973)::Horror
+Escape from New York (1981)::Action|Adventure|Sci-Fi|Thriller
+Insider, The (1999)::Drama
+Misery (1990)::Horror
+Sound of Music, The (1965)::Musical
+Wrong Trousers, The (1993)::Animation|Comedy
+Game, The (1997)::Mystery|Thriller
+Dark City (1998)::Film-Noir|Sci-Fi|Thriller
+Man on the Moon (1999)::Comedy|Drama
+Office Space (1999)::Comedy|Romance
+Backdraft (1991)::Action|Drama
+Starman (1984)::Adventure|Drama|Romance|Sci-Fi
+Lady and the Tramp (1955)::Animation|Children's|Comedy|Musical|Romance
+Tomorrow Never Dies (1997)::Action|Romance|Thriller
+World Is Not Enough, The (1999)::Action|Thriller
+Meet the Parents (2000)::Comedy
+French Connection, The (1971)::Action|Crime|Drama|Thriller
+Pee-wee's Big Adventure (1985)::Comedy
+Dead Poets Society (1989)::Drama
+Mystery Men (1999)::Action|Adventure|Comedy
+Risky Business (1983)::Comedy
+Boys Don't Cry (1999)::Drama
+Superman II (1980)::Action|Adventure|Sci-Fi
+Desperately Seeking Susan (1985)::Comedy|Romance
+Trading Places (1983)::Comedy
+Diner (1982)::Comedy|Drama
+Mrs. Doubtfire (1993)::Comedy
+Big Chill, The (1983)::Comedy|Drama
+You've Got Mail (1998)::Comedy|Romance
+Sense and Sensibility (1995)::Drama|Romance
+Some Like It Hot (1959)::Comedy|Crime
+Lawrence of Arabia (1962)::Adventure|War
+Devil's Advocate, The (1997)::Crime|Horror|Mystery|Thriller
+Die Hard: With a Vengeance (1995)::Action|Thriller
+L.A. Story (1991)::Comedy|Romance
+Firm, The (1993)::Drama|Thriller
+Good, The Bad and The Ugly, The (1966)::Action|Western
+Frequency (2000)::Drama|Thriller
+My Best Friend's Wedding (1997)::Comedy|Romance
+Grease (1978)::Comedy|Musical|Romance
+What About Bob? (1991)::Comedy
+Conspiracy Theory (1997)::Action|Mystery|Romance|Thriller
+Parenthood (1989)::Comedy|Drama
+Blade (1998)::Action|Adventure|Horror
+Grumpy Old Men (1993)::Comedy
+Star Trek: Insurrection (1998)::Action|Sci-Fi
+Ronin (1998)::Action|Crime|Thriller
+Heathers (1989)::Comedy
+Thin Red Line, The (1998)::Action|Drama|War
+Maverick (1994)::Action|Comedy|Western
+Lethal Weapon 3 (1992)::Action|Comedy|Crime|Drama
+Willow (1988)::Action|Adventure|Fantasy
+Fatal Attraction (1987)::Thriller
+Negotiator, The (1998)::Action|Thriller
+Roger & Me (1989)::Comedy|Documentary
+Poltergeist (1982)::Horror|Thriller
+Mission to Mars (2000)::Sci-Fi
+Star Trek: The Motion Picture (1979)::Action|Adventure|Sci-Fi
+Big Daddy (1999)::Comedy
+Shanghai Noon (2000)::Action
+Dune (1984)::Fantasy|Sci-Fi
+Broadcast News (1987)::Comedy|Drama|Romance
+Swingers (1996)::Comedy|Drama
+Double Jeopardy (1999)::Action|Thriller
+Do the Right Thing (1989)::Comedy|Drama
+Notting Hill (1999)::Comedy|Romance
+Alien: Resurrection (1997)::Action|Horror|Sci-Fi
+Batman Forever (1995)::Action|Adventure|Comedy|Crime
+Entrapment (1999)::Crime|Thriller
+Gremlins (1984)::Comedy|Horror
+Godfather: Part III, The (1990)::Action|Crime|Drama
+Dangerous Liaisons (1988)::Drama|Romance
+Payback (1999)::Action|Thriller
+Like Water for Chocolate (Como agua para chocolate) (1992)::Drama|Romance
+From Russia with Love (1963)::Action
+Field of Dreams (1989)::Drama
+Ace Ventura: Pet Detective (1994)::Comedy
+Kingpin (1996)::Comedy
+Manchurian Candidate, The (1962)::Film-Noir|Thriller
+Midnight Run (1988)::Action|Adventure|Comedy|Crime
+Dog Day Afternoon (1975)::Comedy|Crime|Drama
+Snow White and the Seven Dwarfs (1937)::Animation|Children's|Musical
+West Side Story (1961)::Musical|Romance
+Crimson Tide (1995)::Drama|Thriller|War
+King Kong (1933)::Action|Adventure|Horror
+JFK (1991)::Drama|Mystery
+Romy and Michele's High School Reunion (1997)::Comedy
+Trainspotting (1996)::Drama
+Singin' in the Rain (1952)::Musical|Romance
+Basic Instinct (1992)::Mystery|Thriller
+Repo Man (1984)::Comedy|Sci-Fi
+Right Stuff, The (1983)::Drama
+13th Warrior, The (1999)::Action|Horror|Thriller
+Simple Plan, A (1998)::Crime|Thriller
+Sleeper (1973)::Comedy|Sci-Fi
+Muppet Movie, The (1979)::Children's|Comedy
+Excalibur (1981)::Action|Drama|Fantasy|Romance
+Highlander (1986)::Action|Adventure
+Thing, The (1982)::Action|Horror|Sci-Fi|Thriller
+Stripes (1981)::Comedy
+Interview with the Vampire (1994)::Drama|Horror
+Rocketeer, The (1991)::Action|Adventure|Sci-Fi
+Crow, The (1994)::Action|Romance|Thriller
+Outbreak (1995)::Action|Drama|Thriller
+Nikita (La Femme Nikita) (1990)::Thriller
+Birds, The (1963)::Horror
+Killing Fields, The (1984)::Drama|War
+Running Man, The (1987)::Action|Adventure|Sci-Fi
+It's a Wonderful Life (1946)::Drama
+Deliverance (1972)::Adventure|Thriller
+Jackie Brown (1997)::Crime|Drama
+Go (1999)::Crime
+Hook (1991)::Adventure|Fantasy
+Mad Max Beyond Thunderdome (1985)::Action|Sci-Fi
+Searching for Bobby Fischer (1993)::Drama
+Donnie Brasco (1997)::Crime|Drama
+Sixteen Candles (1984)::Comedy
+Manhattan (1979)::Comedy|Drama|Romance
+Hoop Dreams (1994)::Documentary
+Goonies, The (1985)::Adventure|Children's|Fantasy
+Night of the Living Dead (1968)::Horror|Sci-Fi
+Addams Family, The (1991)::Comedy
+Rosemary's Baby (1968)::Horror|Thriller
+Cider House Rules, The (1999)::Drama
+Dark Crystal, The (1982)::Children's|Fantasy|Sci-Fi
+Dirty Dozen, The (1967)::Action|War
+Legends of the Fall (1994)::Drama|Romance|War|Western
+Quiz Show (1994)::Drama
+Ben-Hur (1959)::Action|Adventure|Drama
+Waking Ned Devine (1998)::Comedy
+Jumanji (1995)::Adventure|Children's|Fantasy
+F/X (1986)::Action|Crime|Thriller
+Natural Born Killers (1994)::Action|Thriller
+Deer Hunter, The (1978)::Drama|War
+10 Things I Hate About You (1999)::Comedy|Romance
+NeverEnding Story, The (1984)::Adventure|Children's|Fantasy
+Harold and Maude (1971)::Comedy
+Great Escape, The (1963)::Adventure|War
+Gods Must Be Crazy, The (1980)::Comedy
+What's Eating Gilbert Grape (1993)::Drama
+Pretty in Pink (1986)::Comedy|Drama|Romance
+Naked Gun: From the Files of Police Squad!, The (1988)::Comedy
+General's Daughter, The (1999)::Drama|Thriller
+Network (1976)::Comedy|Drama
+Dirty Dancing (1987)::Musical|Romance
+Cape Fear (1991)::Thriller
+Cliffhanger (1993)::Action|Adventure|Crime
+Bonnie and Clyde (1967)::Crime|Drama
+Casino (1995)::Drama|Thriller
+Happy Gilmore (1996)::Comedy
+Birdcage, The (1996)::Comedy
+So I Married an Axe Murderer (1993)::Comedy|Romance|Thriller
+Doors, The (1991)::Drama|Musical
+Awakenings (1990)::Drama
+Truth About Cats & Dogs, The (1996)::Comedy|Romance
+Raging Bull (1980)::Drama
+Breakfast at Tiffany's (1961)::Drama|Romance
+Strictly Ballroom (1992)::Comedy|Romance
+Home Alone (1990)::Children's|Comedy
+Iron Giant, The (1999)::Animation|Children's
+While You Were Sleeping (1995)::Comedy|Romance
+Jewel of the Nile, The (1985)::Action|Adventure|Comedy|Romance
+Arsenic and Old Lace (1944)::Comedy|Mystery|Thriller
+Bram Stoker's Dracula (1992)::Horror|Romance
+Gandhi (1982)::Drama
+Lethal Weapon 4 (1998)::Action|Comedy|Crime|Drama
+Much Ado About Nothing (1993)::Comedy|Romance
+Lost in Space (1998)::Action|Sci-Fi|Thriller
+White Men Can't Jump (1992)::Comedy
+Jacob's Ladder (1990)::Horror|Mystery|Thriller
+Liar Liar (1997)::Comedy
+Sister Act (1992)::Comedy|Crime
+Bulworth (1998)::Comedy
+Jungle Book, The (1967)::Animation|Children's|Comedy|Musical
+Midnight Cowboy (1969)::Drama
+Dumb & Dumber (1994)::Comedy
+True Romance (1993)::Action|Crime|Romance
+Producers, The (1968)::Comedy|Musical
+Cell, The (2000)::Sci-Fi|Thriller
+Close Shave, A (1995)::Animation|Comedy|Thriller
+Best in Show (2000)::Comedy
+Blue Velvet (1986)::Drama|Mystery
+Driving Miss Daisy (1989)::Drama
+Moonraker (1979)::Action|Romance|Sci-Fi
+Waterworld (1995)::Action|Adventure
+Runaway Bride (1999)::Comedy|Romance
+Dr. No (1962)::Action
+Patton (1970)::Drama|War
+Antz (1998)::Animation|Children's
+Dazed and Confused (1993)::Comedy
+Predator 2 (1990)::Action|Sci-Fi|Thriller
+Santa Clause, The (1994)::Children's|Comedy|Fantasy
+Demolition Man (1993)::Action|Sci-Fi
+American History X (1998)::Drama
+Bone Collector, The (1999)::Thriller
+Broken Arrow (1996)::Action|Thriller
+My Fair Lady (1964)::Musical|Romance
+Last Emperor, The (1987)::Drama|War
+Westworld (1973)::Action|Sci-Fi|Thriller|Western
+Chariots of Fire (1981)::Drama
+Arlington Road (1999)::Thriller
+Lone Star (1996)::Drama|Mystery
+American Psycho (2000)::Comedy|Horror|Thriller
+Midnight in the Garden of Good and Evil (1997)::Comedy|Crime|Drama|Mystery
+Seven Samurai (The Magnificent Seven) (Shichinin no samurai) (1954)::Action|Drama
+Invasion of the Body Snatchers (1956)::Horror|Sci-Fi
+Mr. Mom (1983)::Comedy|Drama
+Blood Simple (1984)::Drama|Film-Noir
+Rush Hour (1998)::Action|Thriller
+Wild Things (1998)::Crime|Drama|Mystery|Thriller
+Out of Africa (1985)::Drama|Romance
+Logan's Run (1976)::Action|Adventure|Sci-Fi
+Bodyguard, The (1992)::Action|Drama|Romance|Thriller
+Lock, Stock & Two Smoking Barrels (1998)::Comedy|Crime|Thriller
+Powder (1995)::Drama|Sci-Fi
+Never Been Kissed (1999)::Comedy|Romance
+Dick Tracy (1990)::Action|Crime
+River Runs Through It, A (1992)::Drama
+Poseidon Adventure, The (1972)::Action|Adventure
+Heavy Metal (1981)::Action|Adventure|Animation|Horror|Sci-Fi
+12 Angry Men (1957)::Drama
+Analyze This (1999)::Comedy
+Tin Cup (1996)::Comedy|Romance
+Lawnmower Man, The (1992)::Action|Sci-Fi|Thriller
+Cinema Paradiso (1988)::Comedy|Drama|Romance
+Star Trek V: The Final Frontier (1989)::Action|Adventure|Sci-Fi
+Pi (1998)::Sci-Fi|Thriller
+Scary Movie (2000)::Comedy|Horror
+Dragonheart (1996)::Action|Adventure|Fantasy
+Civil Action, A (1998)::Drama
+Adventures of Buckaroo Bonzai Across the 8th Dimension, The (1984)::Adventure|Comedy|Sci-Fi
+Piano, The (1993)::Drama|Romance
+Opposite of Sex, The (1998)::Comedy|Drama
+Batman & Robin (1997)::Action|Adventure|Crime
+Strange Days (1995)::Action|Crime|Sci-Fi
+Whole Nine Yards, The (2000)::Comedy|Crime
+Hudsucker Proxy, The (1994)::Comedy|Romance
+Fletch (1985)::Comedy
+Deep Blue Sea (1999)::Action|Sci-Fi|Thriller
+Duck Soup (1933)::Comedy|War
+Peter Pan (1953)::Animation|Children's|Fantasy|Musical
+Fried Green Tomatoes (1991)::Drama
+Being There (1979)::Comedy
+Little Big Man (1970)::Comedy|Drama|Western
+Boiler Room (2000)::Drama
+Hoosiers (1986)::Drama
+Bambi (1942)::Animation|Children's
+October Sky (1999)::Drama
+Gone in 60 Seconds (2000)::Action|Crime
+Big Trouble in Little China (1986)::Action|Comedy
+Red Violin, The (Le Violon rouge) (1998)::Drama|Mystery
+Dead Again (1991)::Mystery|Romance|Thriller
+Philadelphia Story, The (1940)::Comedy|Romance
+Prince of Egypt, The (1998)::Animation|Musical
+Gods and Monsters (1998)::Drama
+Cinderella (1950)::Animation|Children's|Musical
+Scream 3 (2000)::Horror|Mystery|Thriller
+20,000 Leagues Under the Sea (1954)::Adventure|Children's|Fantasy|Sci-Fi
+Hot Shots! Part Deux (1993)::Action|Comedy|War
+Jerk, The (1979)::Comedy
+Bound (1996)::Crime|Drama|Romance|Thriller
+Conan the Barbarian (1982)::Action|Adventure
+Glengarry Glen Ross (1992)::Drama
+Rumble in the Bronx (1995)::Action|Adventure|Crime
+Net, The (1995)::Sci-Fi|Thriller
+Three Amigos! (1986)::Comedy|Western
+Dumbo (1941)::Animation|Children's|Musical
+Carrie (1976)::Horror
+Congo (1995)::Action|Adventure|Mystery|Sci-Fi
+101 Dalmatians (1961)::Animation|Children's
+War of the Worlds, The (1953)::Action|Sci-Fi|War
+Ghostbusters II (1989)::Comedy|Horror
+Judge Dredd (1995)::Action|Adventure|Sci-Fi
+Ransom (1996)::Drama|Thriller
+Doctor Zhivago (1965)::Drama|Romance|War
+End of Days (1999)::Action|Thriller
+Space Jam (1996)::Adventure|Animation|Children's|Comedy|Fantasy
+Saint, The (1997)::Action|Romance|Thriller
+Sex, Lies, and Videotape (1989)::Drama
+Young Guns (1988)::Action|Comedy|Western
+Philadelphia (1993)::Drama
+Room with a View, A (1986)::Drama|Romance
+Me, Myself and Irene (2000)::Comedy
+Day the Earth Stood Still, The (1951)::Drama|Sci-Fi
+Cruel Intentions (1999)::Drama
+Nurse Betty (2000)::Comedy|Thriller
+Airplane II: The Sequel (1982)::Comedy
+Commitments, The (1991)::Comedy|Drama
+G.I. Jane (1997)::Action|Drama|War
+Bringing Out the Dead (1999)::Drama|Horror
+Scent of a Woman (1992)::Drama
+Rob Roy (1995)::Drama|Romance|War
+Labyrinth (1986)::Adventure|Children's|Fantasy
+Tombstone (1993)::Western
+Double Indemnity (1944)::Crime|Film-Noir
+Species (1995)::Horror|Sci-Fi
+American Werewolf in London, An (1981)::Horror
+Vacation (1983)::Comedy
+Evil Dead II (Dead By Dawn) (1987)::Action|Adventure|Comedy|Horror
+Shine (1996)::Drama|Romance
+Natural, The (1984)::Drama
+Prizzi's Honor (1985)::Comedy|Drama|Romance
+To Die For (1995)::Comedy|Drama
+Pitch Black (2000)::Action|Sci-Fi
+Ladyhawke (1985)::Adventure|Fantasy|Romance
+Honeymoon in Vegas (1992)::Comedy|Romance
+Mr. Holland's Opus (1995)::Drama
+Big Sleep, The (1946)::Film-Noir|Mystery
+Sphere (1998)::Adventure|Sci-Fi|Thriller
+Adventures in Babysitting (1987)::Adventure|Comedy
+Desperado (1995)::Action|Romance|Thriller
+Flight of the Navigator (1986)::Adventure|Children's|Sci-Fi
+Titan A.E. (2000)::Adventure|Animation|Sci-Fi
+Teenage Mutant Ninja Turtles (1990)::Action|Children's|Fantasy
+Arthur (1981)::Comedy|Romance
+Coneheads (1993)::Comedy|Sci-Fi
+Pushing Tin (1999)::Comedy
+Terms of Endearment (1983)::Comedy|Drama
+Three Musketeers, The (1993)::Action|Adventure|Comedy
+That Thing You Do! (1996)::Comedy
+Doctor Dolittle (1998)::Comedy
+James and the Giant Peach (1996)::Animation|Children's|Musical
+Alice in Wonderland (1951)::Animation|Children's|Musical
+Falling Down (1993)::Action|Drama
+Babe: Pig in the City (1998)::Children's|Comedy
+Fistful of Dollars, A (1964)::Action|Western
+Grapes of Wrath, The (1940)::Drama
+Stuart Little (1999)::Children's|Comedy
+Breaking Away (1979)::Drama
+On the Waterfront (1954)::Crime|Drama
+Muriel's Wedding (1994)::Comedy|Romance
+Hard Day's Night, A (1964)::Comedy|Musical
+Scrooged (1988)::Comedy
+Client, The (1994)::Drama|Mystery|Thriller
+Christmas Vacation (1989)::Comedy
+Touch of Evil (1958)::Crime|Film-Noir|Thriller
+Working Girl (1988)::Comedy|Drama
+Faculty, The (1998)::Horror|Sci-Fi
+Buffy the Vampire Slayer (1992)::Comedy|Horror
+Escape from L.A. (1996)::Action|Adventure|Sci-Fi|Thriller
+Sleeping Beauty (1959)::Animation|Children's|Musical
+Superman III (1983)::Action|Adventure|Sci-Fi
+Weird Science (1985)::Comedy
+Hurricane, The (1999)::Drama
+Ice Storm, The (1997)::Drama
+Ordinary People (1980)::Drama
+Halloween (1978)::Horror
+Peggy Sue Got Married (1986)::Comedy|Romance
+28 Days (2000)::Comedy
+Body Heat (1981)::Crime|Thriller
+Alien Nation (1988)::Crime|Drama|Sci-Fi
+Guns of Navarone, The (1961)::Action|Drama|War
+Postino, Il (The Postman) (1994)::Drama|Romance
+Emma (1996)::Comedy|Drama|Romance
+Last Action Hero (1993)::Action|Comedy
+Private Parts (1997)::Comedy|Drama
+Godzilla (1998)::Action|Sci-Fi
+Pinocchio (1940)::Animation|Children's
+Event Horizon (1997)::Action|Mystery|Sci-Fi|Thriller
+Charlotte's Web (1973)::Animation|Children's
+Dead Calm (1989)::Thriller
+Wonder Boys (2000)::Comedy|Drama
+Snake Eyes (1998)::Action|Crime|Mystery|Thriller
+Serpico (1973)::Crime|Drama
+Spanish Prisoner, The (1997)::Drama|Thriller
+Karate Kid, The (1984)::Drama
+Robocop 2 (1990)::Action|Crime|Sci-Fi
+Cop Land (1997)::Crime|Drama|Mystery
+Crumb (1994)::Documentary
+Mulan (1998)::Animation|Children's
+Keeping the Faith (2000)::Comedy|Romance
+Stir of Echoes (1999)::Thriller
+Spy Who Loved Me, The (1977)::Action
+Primal Fear (1996)::Drama|Thriller
+Easy Rider (1969)::Adventure|Drama
+Streetcar Named Desire, A (1951)::Drama
+Any Given Sunday (1999)::Drama
+Mariachi, El (1992)::Action|Thriller
+Strangers on a Train (1951)::Film-Noir|Thriller
+Benny & Joon (1993)::Comedy|Romance
+Third Man, The (1949)::Mystery|Thriller
+Fly, The (1958)::Horror|Sci-Fi
+Howards End (1992)::Drama
+William Shakespeare's Romeo and Juliet (1996)::Drama|Romance
+Purple Rose of Cairo, The (1985)::Comedy|Drama|Romance
+Grumpier Old Men (1995)::Comedy|Romance
+Welcome to the Dollhouse (1995)::Comedy|Drama
+Space Cowboys (2000)::Action|Sci-Fi
+Heavenly Creatures (1994)::Drama|Fantasy|Romance|Thriller
+Karate Kid, Part II, The (1986)::Action|Adventure|Drama
+Forever Young (1992)::Adventure|Romance|Sci-Fi
+Rudy (1993)::Drama
+Haunting, The (1999)::Horror|Thriller
+Beavis and Butt-head Do America (1996)::Animation|Comedy
+Spawn (1997)::Action|Adventure|Sci-Fi|Thriller
+I Know What You Did Last Summer (1997)::Horror|Mystery|Thriller
+Ruthless People (1986)::Comedy
+Malcolm X (1992)::Drama
+Red Dawn (1984)::Action|War
+Secrets & Lies (1996)::Drama
+Joy Luck Club, The (1993)::Drama
+Patch Adams (1998)::Comedy|Drama
+Limey, The (1999)::Action|Crime|Drama
+Grand Day Out, A (1992)::Animation|Comedy
+Better Off Dead... (1985)::Comedy
+Apostle, The (1997)::Drama
+Six Days Seven Nights (1998)::Adventure|Comedy|Romance
+Popeye (1980)::Adventure|Comedy|Musical
+Sunset Blvd. (a.k.a. Sunset Boulevard) (1950)::Film-Noir
+2010 (1984)::Mystery|Sci-Fi
+Adventures of Priscilla, Queen of the Desert, The (1994)::Comedy|Drama
+Hercules (1997)::Adventure|Animation|Children's|Comedy|Musical
+Mosquito Coast, The (1986)::Drama
+Sliding Doors (1998)::Drama|Romance
+Addams Family Values (1993)::Comedy
+Escape from the Planet of the Apes (1971)::Action|Sci-Fi
+What Lies Beneath (2000)::Thriller
+Waiting for Guffman (1996)::Comedy
+Under Siege (1992)::Action
+Key Largo (1948)::Crime|Drama|Film-Noir|Thriller
+Man with the Golden Gun, The (1974)::Action
+Eraser (1996)::Action|Thriller
+Crimes and Misdemeanors (1989)::Comedy
+Golden Child, The (1986)::Action|Adventure|Comedy
+Final Destination (2000)::Drama|Thriller
+Sabrina (1995)::Comedy|Romance
+Johnny Mnemonic (1995)::Action|Sci-Fi|Thriller
+Elephant Man, The (1980)::Drama
+Mystery Science Theater 3000: The Movie (1996)::Comedy|Sci-Fi
+People vs. Larry Flynt, The (1996)::Drama
+Bullets Over Broadway (1994)::Comedy
+Scream 2 (1997)::Horror|Thriller
+Return to Me (2000)::Drama|Romance
+My Left Foot (1989)::Drama
+Treasure of the Sierra Madre, The (1948)::Adventure
+Fantasia 2000 (1999)::Animation|Children's|Musical
+Conversation, The (1974)::Drama|Mystery
+Akira (1988)::Adventure|Animation|Sci-Fi|Thriller
+Kramer Vs. Kramer (1979)::Drama
+Mallrats (1995)::Comedy
+Ghost and the Darkness, The (1996)::Action|Adventure
+Nightmare on Elm Street, A (1984)::Horror
+And Now for Something Completely Different (1971)::Comedy
+Remains of the Day, The (1993)::Drama
+Big Night (1996)::Drama
+Color Purple, The (1985)::Drama
+Hustler, The (1961)::Drama
+U.S. Marshalls (1998)::Action|Thriller
+Mickey Blue Eyes (1999)::Comedy|Romance
+Angel Heart (1987)::Film-Noir|Mystery|Thriller
+Creepshow (1982)::Horror
+Pacific Heights (1990)::Thriller
+Defending Your Life (1991)::Comedy|Romance
+Notorious (1946)::Film-Noir|Romance|Thriller
+Rocky II (1979)::Action|Drama
+Hairspray (1988)::Comedy|Drama
+To Catch a Thief (1955)::Comedy|Romance|Thriller
+Clue (1985)::Comedy|Mystery
+Cabaret (1972)::Musical|War
+Real Genius (1985)::Comedy
+Tarzan (1999)::Animation|Children's
+Courage Under Fire (1996)::Drama|War
+Toys (1992)::Action|Comedy|Fantasy
+Wallace & Gromit: The Best of Aardman Animation (1996)::Animation
+Lord of the Rings, The (1978)::Adventure|Animation|Children's|Sci-Fi
+Single White Female (1992)::Action
+Remember the Titans (2000)::Drama
+Timecop (1994)::Action|Sci-Fi
+Footloose (1984)::Drama
+Long Kiss Goodnight, The (1996)::Action|Thriller
+Victor/Victoria (1982)::Comedy|Musical
+Howard the Duck (1986)::Adventure|Children's|Sci-Fi
+Brothers McMullen, The (1995)::Comedy
+Wayne's World 2 (1993)::Comedy
+Mighty Aphrodite (1995)::Comedy
+Girl, Interrupted (1999)::Drama
+Naked Gun 2 1/2: The Smell of Fear, The (1991)::Comedy
+Dick (1999)::Comedy
+Straight Story, The (1999)::Drama
+Singles (1992)::Comedy|Drama|Romance
+Reality Bites (1994)::Comedy|Drama
+In & Out (1997)::Comedy
+Phenomenon (1996)::Drama|Romance
+Henry V (1989)::Drama|War
+Spartacus (1960)::Drama
+Roman Holiday (1953)::Comedy|Romance
+For Your Eyes Only (1981)::Action
+Beach, The (2000)::Adventure|Drama
+Soylent Green (1973)::Sci-Fi|Thriller
+Live and Let Die (1973)::Action
+Lake Placid (1999)::Horror|Thriller
+Mister Roberts (1955)::Comedy|Drama|War
+Shaft (2000)::Action|Crime
+Days of Thunder (1990)::Action|Romance
+Waterboy, The (1998)::Comedy
+Rules of Engagement (2000)::Drama|Thriller
+Stigmata (1999)::Thriller
+Road Trip (2000)::Comedy
+Quick and the Dead, The (1995)::Action|Adventure|Western
+Brady Bunch Movie, The (1995)::Comedy
+Money Pit, The (1986)::Comedy
+Arrival, The (1996)::Action|Sci-Fi|Thriller
+Apartment, The (1960)::Comedy|Drama
+Executive Decision (1996)::Action|Thriller
+Craft, The (1996)::Drama|Horror
+Ever After: A Cinderella Story (1998)::Drama|Romance
+Drugstore Cowboy (1989)::Crime|Drama
+Bob Roberts (1992)::Comedy
+Midsummer Night's Dream, A (1999)::Comedy|Fantasy
+Crocodile Dundee II (1988)::Adventure|Comedy
+Bringing Up Baby (1938)::Comedy
+Police Academy (1984)::Comedy
+Flatliners (1990)::Thriller
+Naked Gun 33 1/3: The Final Insult (1994)::Comedy
+Tommy Boy (1995)::Comedy
+She's All That (1999)::Comedy|Romance
+eXistenZ (1999)::Action|Sci-Fi|Thriller
+Omen, The (1976)::Horror
+Steel Magnolias (1989)::Drama
+Private Benjamin (1980)::Comedy
+Frankenstein (1931)::Horror
+On Golden Pond (1981)::Drama
+Hollow Man (2000)::Horror|Sci-Fi|Thriller
+American Tail, An (1986)::Animation|Children's|Comedy
+Thunderball (1965)::Action
+City of Lost Children, The (1995)::Adventure|Sci-Fi
+All About Eve (1950)::Drama
+High Noon (1952)::Western
+Far and Away (1992)::Drama|Romance
+Rebel Without a Cause (1955)::Drama
+Perfect Murder, A (1998)::Mystery|Thriller
+Rambo: First Blood Part II (1985)::Action|War
+Rocky III (1982)::Action|Drama
+Marathon Man (1976)::Thriller
+Anaconda (1997)::Action|Adventure|Thriller
+Yellow Submarine (1968)::Animation|Musical
+Snow Falling on Cedars (1999)::Drama
+His Girl Friday (1940)::Comedy
+First Blood (1982)::Action
+Peacemaker, The (1997)::Action|Thriller|War
+Kiss the Girls (1997)::Crime|Drama|Thriller
+Summer of Sam (1999)::Drama
+All About My Mother (Todo Sobre Mi Madre) (1999)::Comedy|Drama
+Stalag 17 (1953)::Drama|War
+City Slickers II: The Legend of Curly's Gold (1994)::Comedy|Western
+Cool Runnings (1993)::Comedy
+Michael (1996)::Comedy|Romance
+Man in the Iron Mask, The (1998)::Action|Drama|Romance
+Thirteenth Floor, The (1999)::Drama|Sci-Fi|Thriller
+Year of Living Dangerously (1982)::Drama|Romance
+Hunchback of Notre Dame, The (1996)::Animation|Children's|Musical
+Ideal Husband, An (1999)::Comedy
+Ace Ventura: When Nature Calls (1995)::Comedy
+Serial Mom (1994)::Comedy|Crime|Horror
+Odd Couple, The (1968)::Comedy
+Fallen (1998)::Action|Mystery|Thriller
+Metropolis (1926)::Sci-Fi
+Contender, The (2000)::Drama|Thriller
+Bridges of Madison County, The (1995)::Drama|Romance
+Pink Floyd - The Wall (1982)::Drama|Musical|War
+Hope Floats (1998)::Comedy|Drama|Romance
+Don Juan DeMarco (1995)::Comedy|Drama|Romance
+Barbarella (1968)::Adventure|Sci-Fi
+Rebecca (1940)::Romance|Thriller
+Siege, The (1998)::Action|Thriller
+Cable Guy, The (1996)::Comedy
+Return of the Pink Panther, The (1974)::Comedy
+European Vacation (1985)::Comedy
+Licence to Kill (1989)::Action
+Madness of King George, The (1994)::Drama
+Mr. Smith Goes to Washington (1939)::Drama
+Drop Dead Gorgeous (1999)::Comedy
+Bicentennial Man (1999)::Comedy|Drama|Sci-Fi
+Pocahontas (1995)::Animation|Children's|Musical|Romance
+Rising Sun (1993)::Action|Drama|Mystery
+Hamlet (1996)::Drama
+Sweet Hereafter, The (1997)::Drama
+Honey, I Blew Up the Kid (1992)::Children's|Comedy|Sci-Fi
+Absolute Power (1997)::Mystery|Thriller
+Absent Minded Professor, The (1961)::Children's|Comedy|Fantasy
+Miracle on 34th Street (1947)::Drama
+Bird on a Wire (1990)::Action|Adventure|Romance|Thriller
+Devil in a Blue Dress (1995)::Crime|Film-Noir|Mystery|Thriller
+Dial M for Murder (1954)::Mystery|Thriller
+Young Sherlock Holmes (1985)::Action|Adventure|Mystery
+Verdict, The (1982)::Drama
+Copycat (1995)::Crime|Drama|Thriller
+Adventures of Robin Hood, The (1938)::Action|Adventure
+Rocky IV (1985)::Action|Drama
+Universal Soldier (1992)::Action|Sci-Fi
+Kelly's Heroes (1970)::Action|Comedy|War
+Robin Hood: Men in Tights (1993)::Comedy
+It Happened One Night (1934)::Comedy
+Sleepers (1996)::Crime|Drama
+Jumpin' Jack Flash (1986)::Action|Comedy|Romance|Thriller
+Weekend at Bernie's (1989)::Comedy
+Forbidden Planet (1956)::Sci-Fi
+Inspector Gadget (1999)::Action|Adventure|Children's|Comedy
+Bananas (1971)::Comedy|War
+Smoke Signals (1998)::Comedy|Drama
+Gremlins 2: The New Batch (1990)::Comedy|Horror
+King and I, The (1956)::Musical
+History of the World: Part I (1981)::Comedy
+Jaws 2 (1978)::Action|Horror
+Carlito's Way (1993)::Crime|Drama
+Young Guns II (1990)::Action|Comedy|Western
+Secret of NIMH, The (1982)::Animation|Children's
+Small Time Crooks (2000)::Comedy
+Delicatessen (1991)::Comedy|Sci-Fi
+I.Q. (1994)::Comedy|Romance
+Speed 2: Cruise Control (1997)::Action|Romance|Thriller
+Dead Men Don't Wear Plaid (1982)::Comedy|Crime|Thriller
+City of Angels (1998)::Romance
+Alive (1993)::Drama
+Sabrina (1954)::Comedy|Romance
+Married to the Mob (1988)::Comedy
+Beneath the Planet of the Apes (1970)::Action|Sci-Fi
+Outlaw Josey Wales, The (1976)::Western
+Soapdish (1991)::Comedy
+101 Dalmatians (1996)::Children's|Comedy
+Small Soldiers (1998)::Animation|Children's|Fantasy|War
+From Here to Eternity (1953)::Drama|Romance|War
+Cyrano de Bergerac (1990)::Action|Drama|Romance
+Dead Zone, The (1983)::Horror|Thriller
+Bad Boys (1995)::Action
+First Knight (1995)::Action|Adventure|Drama|Romance
+Seven Years in Tibet (1997)::Drama|War
+Flashdance (1983)::Drama|Romance
+Cape Fear (1962)::Film-Noir|Thriller
+Mighty Ducks, The (1992)::Children's|Comedy
+Blast from the Past (1999)::Comedy|Romance
+Bachelor Party (1984)::Comedy
+Breaker Morant (1980)::Drama|War
+Five Easy Pieces (1970)::Drama
+Tank Girl (1995)::Action|Comedy|Musical|Sci-Fi
+Miller's Crossing (1990)::Drama
+Conquest of the Planet of the Apes (1972)::Action|Sci-Fi
+Great Muppet Caper, The (1981)::Children's|Comedy
+Fabulous Baker Boys, The (1989)::Drama|Romance
+Indian in the Cupboard, The (1995)::Adventure|Children's|Fantasy
+Ran (1985)::Drama|War
+Little Shop of Horrors, The (1960)::Comedy|Horror
+Harvey (1950)::Comedy
+Romeo and Juliet (1968)::Drama|Romance
+Billy Madison (1995)::Comedy
+Amityville Horror, The (1979)::Horror
+Legend (1985)::Adventure|Fantasy|Romance
+What Dreams May Come (1998)::Drama|Romance
+No Way Out (1987)::Thriller
+Breakdown (1997)::Action|Thriller
+Buffalo 66 (1998)::Action|Comedy|Drama
+Back to School (1986)::Comedy
+For Love of the Game (1999)::Comedy|Drama
+Last Picture Show, The (1971)::Drama
+Primary Colors (1998)::Drama
+Women on the Verge of a Nervous Breakdown (1988)::Comedy|Drama
+Lord of the Flies (1963)::Adventure|Drama|Thriller
+On Her Majesty's Secret Service (1969)::Action
+Beverly Hills Cop III (1994)::Action|Comedy
+St. Elmo's Fire (1985)::Drama|Romance
+Longest Day, The (1962)::Action|Drama|War
+Local Hero (1983)::Comedy
+Amistad (1997)::Drama
+River Wild, The (1994)::Action|Thriller
+Englishman Who Went Up a Hill, But Came Down a Mountain, The (1995)::Comedy|Romance
+Super Mario Bros. (1993)::Action|Adventure|Children's|Sci-Fi
+Shall We Dance? (Shall We Dansu?) (1996)::Comedy
+Guess Who's Coming to Dinner (1967)::Comedy|Drama
+Dolores Claiborne (1994)::Drama|Thriller
+Mimic (1997)::Sci-Fi|Thriller
+In the Heat of the Night (1967)::Drama|Mystery
+Fantastic Voyage (1966)::Adventure|Sci-Fi
+Eat Drink Man Woman (1994)::Comedy|Drama
+Ref, The (1994)::Comedy
+Grand Canyon (1991)::Crime|Drama
+Pelican Brief, The (1993)::Thriller
+Blue Lagoon, The (1980)::Adventure|Drama|Romance
+Rounders (1998)::Crime|Drama
+Heaven Can Wait (1978)::Comedy
+Princess Mononoke, The (Mononoke Hime) (1997)::Action|Adventure|Animation
+Dinosaur (2000)::Animation|Children's
+Time to Kill, A (1996)::Drama
+Robin Hood: Prince of Thieves (1991)::Drama
+Sophie's Choice (1982)::Drama
+Meet Joe Black (1998)::Romance
+American in Paris, An (1951)::Musical|Romance
+Color of Money, The (1986)::Drama
+Robin Hood (1973)::Animation|Children's
+Battlefield Earth (2000)::Action|Sci-Fi
+Home Alone 2: Lost in New York (1992)::Children's|Comedy
+House on Haunted Hill, The (1999)::Horror
+Messenger: The Story of Joan of Arc, The (1999)::Drama|War
+Muppets Take Manhattan, The (1984)::Children's|Comedy
+Hand That Rocks the Cradle, The (1992)::Thriller
+Death Becomes Her (1992)::Comedy
+Porky's (1981)::Comedy
+Secret Garden, The (1993)::Children's|Drama
+Frighteners, The (1996)::Comedy|Horror
+Blob, The (1958)::Horror|Sci-Fi
+Dreamscape (1984)::Adventure|Crime|Sci-Fi|Thriller
+Jackal, The (1997)::Action|Thriller
+Manhattan Murder Mystery (1993)::Comedy|Mystery
+Three Colors: Red (1994)::Drama
+Anna and the King (1999)::Drama|Romance
+Superman IV: The Quest for Peace (1987)::Action|Adventure|Sci-Fi
+Children of a Lesser God (1986)::Drama
+Romeo Must Die (2000)::Action|Romance
+My Life as a Dog (Mitt liv som hund) (1985)::Drama
+Little Voice (1998)::Comedy
+Phantasm (1979)::Horror|Sci-Fi
+Circle of Friends (1995)::Drama|Romance
+Astronaut's Wife, The (1999)::Sci-Fi|Thriller
+Of Mice and Men (1992)::Drama
+Virgin Suicides, The (1999)::Comedy|Drama
+Stand and Deliver (1987)::Drama
+Hard-Boiled (Lashou shentan) (1992)::Action|Crime
+French Kiss (1995)::Comedy|Romance
+About Last Night... (1986)::Comedy|Drama|Romance
+Rosencrantz and Guildenstern Are Dead (1990)::Comedy|Drama
+Nashville (1975)::Drama|Musical
+View to a Kill, A (1985)::Action
+Papillon (1973)::Drama
+For a Few Dollars More (1965)::Western
+Island of Dr. Moreau, The (1996)::Sci-Fi|Thriller
+Name of the Rose, The (1986)::Mystery
+Pete's Dragon (1977)::Adventure|Animation|Children's|Musical
+Goodbye Girl, The (1977)::Comedy|Romance
+Hackers (1995)::Action|Crime|Thriller
+Dante's Peak (1997)::Action|Thriller
+Rainmaker, The (1997)::Drama
+Prince of Tides, The (1991)::Drama|Romance
+Happiness (1998)::Comedy
+True Grit (1969)::Adventure|Western
+Friday (1995)::Comedy
+Bedknobs and Broomsticks (1971)::Adventure|Children's|Musical
+Replacement Killers, The (1998)::Action|Thriller
+Three Days of the Condor (1975)::Thriller

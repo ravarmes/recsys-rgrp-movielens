@@ -3,94 +3,94 @@ import numpy as np
 
 # Dados fornecidos
 data = {
-    "ALS | Gender | 0.0042653": {
-        "Male": 0.7406300,
-        "Female": 0.8712488
+    "ALS | Activity | 0.0012966": {
+        "advantaged_group": 0.5072996,
+        "disadvantaged_group": 0.5579151
     },
     "ALS | Age | 0.0017027": {
-        "00": 0.8355848,
-        "18": 0.8093482,
-        "25": 0.7505571,
-        "35": 0.7775164,
-        "45": 0.7509080,
-        "50": 0.6974159,
-        "56": 0.7716997
+        "00": 0.5988816,
+        "18": 0.5765943,
+        "25": 0.5545493,
+        "35": 0.5379932,
+        "45": 0.5287662,
+        "50": 0.5270961,
+        "56": 0.5724602
     },
-    "ALS | Activity | 0.0012966": {
-        "Active": 0.6991967,
-        "Inactive": 0.7712141
+    "ALS | Gender | 0.0042653": {
+        "Male": 0.5414160,
+        "Female": 0.5988678
     },
     "ALS | Agglomerative | 0.0061508": {
-        "G1": 0.7352054,
-        "G2": 0.7408430,
-        "G3": 0.8431107,
-        "G4": 0.7617414,
-        "G5": 0.9408125
+        "G1": 0.5988678,
+        "G2": 0.5165295,
+        "G3": 0.5257680,
+        "G4": 0.5672233,
+        "G5": 0.5356081
     },
-    "NMF | Gender | 0.0030178": {
-        "Male": 0.6741322,
-        "Female": 0.7840013
+    "NCF | Activity | 0.0040016": {
+        "advantaged_group": 0.6736042,
+        "disadvantaged_group": 0.7053388
     },
-    "NMF | Age | 0.0016120": {
-        "00": 0.7717287,
-        "18": 0.7343003,
-        "25": 0.6766549,
-        "35": 0.6940361,
-        "45": 0.6967239,
-        "50": 0.6588567,
-        "56": 0.7630716
+    "NCF | Age | 0.0016120": {
+        "00": 0.7503187,
+        "18": 0.7484501,
+        "25": 0.6980305,
+        "35": 0.6789333,
+        "45": 0.6721374,
+        "50": 0.6790036,
+        "56": 0.7068404
     },
-    "NMF | Activity | 0.0040016": {
-        "Active": 0.5782639,
-        "Inactive": 0.7047802
+    "NCF | Gender | 0.0030178": {
+        "Male": 0.6834183,
+        "Female": 0.7557694
     },
-    "NMF | Agglomerative | 0.0048747": {
-        "G1": 0.6753650,
-        "G2": 0.6954240,
-        "G3": 0.7655907,
-        "G4": 0.6309879,
-        "G5": 0.8285309
+    "NCF | Agglomerative | 0.0048747": {
+        "G1": 0.7597630,
+        "G2": 0.6992425,
+        "G3": 0.6409658,
+        "G4": 0.7004714,
+        "G5": 0.6793387
     },
-    "KNN | Gender | 0.0005350": {
-        "Male": 1.0599420,
-        "Female": 1.1062011
+    "CBF | Activity | 0.0019527": {
+        "advantaged_group": 0.6958071,
+        "disadvantaged_group": 0.6275687
     },
-    "KNN | Age | 0.0076711": {
-        "00": 1.1206043,
-        "18": 1.2151433,
-        "25": 1.0720398,
-        "35": 0.9772514,
-        "45": 0.9611199,
-        "50": 1.1039704,
-        "56": 0.9748200
+    "CBF | Age | 0.0076711": {
+        "00": 0.6896335,
+        "18": 0.6388872,
+        "25": 0.6278901,
+        "35": 0.5693930,
+        "45": 0.5658008,
+        "50": 0.5538033,
+        "56": 0.5680818
     },
-    "KNN | Activity | 0.0019527": {
-        "Active": 0.9870601,
-        "Inactive": 1.0754399
+    "CBF | Gender | 0.0005350": {
+        "Male": 0.6217455,
+        "Female": 0.6536329
     },
-    "KNN | Agglomerative | 0.0030414": {
-        "G1": 1.1109219,
-        "G2": 0.9779038,
-        "G3": 1.1163396,
-        "G4": 1.0125284,
-        "G5": 1.0811366
+    "CBF | Agglomerative | 0.0030414": {
+        "G1": 0.6515506,
+        "G2": 0.6689123,
+        "G3": 0.5439165,
+        "G4": 0.6351156,
+        "G5": 0.6531393
     }
 }
 
 # Definindo os títulos dos subplots
 titles = [
-    "ALS - Gender",
-    "ALS - Age",
     "ALS - Activity",
+    "ALS - Age",
+    "ALS - Gender",
     "ALS - Agglomerative",
-    "NMF - Gender",
-    "NMF - Age",
-    "NMF - Activity",
-    "NMF - Agglomerative",
-    "KNN - Gender",
-    "KNN - Age",
-    "KNN - Activity",
-    "KNN - Agglomerative"
+    "NCF - Activity",
+    "NCF - Age",
+    "NCF - Gender",
+    "NCF - Agglomerative",
+    "CBF - Activity",
+    "CBF - Age",
+    "CBF - Gender",
+    "CBF - Agglomerative"
 ]
 
 # Paletas de cores
@@ -127,7 +127,7 @@ for i, (alg, groups) in enumerate(data.items()):
         ax.set_ylabel('Group Loss')
     else:
         ax.set_yticklabels([])  # Remove os rótulos do eixo y para os outros subplots
-    ax.set_ylim(0, 1.23)  # Definindo a escala do eixo y
+    ax.set_ylim(0, 0.72)  # Definindo a escala do eixo y
     ax.set_title(titles[i])
 
 # Ajustando layout

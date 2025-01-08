@@ -1,15 +1,13 @@
 from RecSys import RecSys
-from UserFairness import Polarization
-from UserFairness import IndividualLossVariance
 from UserFairness import GroupLossVariance
+from UserFairness import IndividualLossVariance
+from UserFairness import RMSE
+
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import AgglomerativeClustering
 from scipy.cluster import hierarchy
-
 
 # reading data from 3883 movies and 6040 users 
 Data_path = 'Data/MovieLens-1M'
@@ -20,6 +18,7 @@ top_items = True # True: to use movies with more ratings; False: otherwise
 
 # recommendation algorithm
 algorithms = ['RecSysALS', 'RecSysNMF', 'RecSysKNN']
+
 resultados = []
 
 for algorithm in algorithms:
@@ -105,25 +104,22 @@ for algorithm in algorithms:
     #     print(f"Grupo {key}: {quantidade} elementos")
 
     glv = GroupLossVariance(X, omega, G, 1) #axis = 1 (0 rows e 1 columns)
-    RgrpAll = glv.evaluate(X_est)
-    losses_RgrpAll = glv.get_losses(X_est)
+    RgrpAgglomerative = glv.evaluate(X_est)
+    losses_RgrpAgglomerative = glv.get_losses(X_est)
 
     print("\n\n------------------------------------------")
     print(f'Algorithm: {algorithm}')
-    print(f'Group (Rgrp All): {RgrpAll:.7f}')
-    print(f'RgrpAll (1) : {losses_RgrpAll[1]:.7f}')
-    print(f'RgrpAll (2) : {losses_RgrpAll[2]:.7f}')
-    print(f'RgrpAll (3) : {losses_RgrpAll[3]:.7f}')
-    print(f'RgrpAll (4) : {losses_RgrpAll[4]:.7f}')
-    print(f'RgrpAll (5) : {losses_RgrpAll[5]:.7f}')
+    print(f'Group (Rgrp Agglomerative): {RgrpAgglomerative:.7f}')
+    print(f'RgrpAgglomerative (1) : {losses_RgrpAgglomerative[1]:.7f}')
+    print(f'RgrpAgglomerative (2) : {losses_RgrpAgglomerative[2]:.7f}')
+    print(f'RgrpAgglomerative (3) : {losses_RgrpAgglomerative[3]:.7f}')
+    print(f'RgrpAgglomerative (4) : {losses_RgrpAgglomerative[4]:.7f}')
+    print(f'RgrpAgglomerative (5) : {losses_RgrpAgglomerative[5]:.7f}')
 
-    RgrpAll_groups = ['G1', 'G2', 'G3', 'G4', 'G5']
-    plt.bar(RgrpAll_groups, losses_RgrpAll)
-    plt.title(f'Rgrp (Aglomerativo) ({algorithm}): {RgrpAll:.7f}')
-    plt.savefig(f'plots/RgrpAgglomerative-{algorithm}')
-    plt.clf()
-    #plt.show()
+    resultados.append(f'{RgrpAgglomerative:.7f}')
 
-    resultados.append(f'{RgrpAll:.7f}')
+    rmse = RMSE(X, omega)
+    rmse_result = rmse.evaluate(X_est)
+    print(f'RMSE: {rmse_result:.7f}')
 
 print(resultados)

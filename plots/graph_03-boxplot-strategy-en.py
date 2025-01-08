@@ -3,16 +3,16 @@ import numpy as np
 
 # Dados de injustiça para cada estratégia e configuração de agrupamento
 dados = {
-    'ALS': [0.00426530, 0.00170270, 0.00129660, 0.00615080],
-    'NMF': [0.00301780, 0.00161200, 0.00400160, 0.00487470],
-    'KNN': [0.00053500, 0.00767110, 0.00195270, 0.00304140]
+    'ALS': [0.0006405, 0.0006335, 0.0008252, 0.0009184],
+    'NCF': [0.0002518, 0.0009184, 0.0013087, 0.0014805],
+    'CBF': [0.0011641, 0.0022225, 0.0002542, 0.0019898]
 }
 
 # Convertendo dados para formato adequado para boxplot
-dados_boxplot = [dados['ALS'], dados['NMF'], dados['KNN']]
+dados_boxplot = [dados['ALS'], dados['NCF'], dados['CBF']]
 
 # Nomes para os eixos X
-estrategias = ['ALS', 'NMF', 'KNN']
+estrategias = ['ALS', 'NCF', 'CBF']
 
 # Criando o gráfico de caixa
 plt.figure(figsize=(10, 6))

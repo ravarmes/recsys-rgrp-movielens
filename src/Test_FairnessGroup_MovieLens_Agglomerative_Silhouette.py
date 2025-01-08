@@ -67,6 +67,3 @@ plt.ylabel('Silhouette Score')
 plt.title('Silhouette Score para Determinação do Número de Clusters')
 plt.grid(True)
 plt.show()
-
-    
-    

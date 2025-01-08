@@ -1,8 +1,6 @@
 from RecSys import RecSys
-from UserFairness import Polarization
-from UserFairness import IndividualLossVariance
 from UserFairness import GroupLossVariance
-import matplotlib.pyplot as plt
+from UserFairness import RMSE
 
 
 # reading data from 3883 movies and 6040 users 
@@ -29,6 +27,15 @@ for algorithm in algorithms:
 
     X_est = recsys.compute_X_est(X, algorithm) # RecSysALS or RecSysKNN or RecSysNMF
 
+    # Salve o DataFrame em um arquivo Excel
+    import os
+    file_path_X = f'X_{algorithm}.xlsx'  # Definindo o caminho e nome do arquivo
+    if not os.path.exists(file_path_X):
+        X.to_excel(file_path_X, index=True)
+
+    file_path_X_est = f'X_est_{algorithm}.xlsx'  # Definindo o caminho e nome do arquivo
+    X_est.to_excel(file_path_X_est, index=True)  # Altere index=False se não quiser incluir o índice
+
     # Group fairness. Let I be the set of all users/items and G = {G1 . . . ,Gg} be a partition of users/items into g groups. 
     # The loss of group i as the mean squared estimation error over all known ratings in group i
 
@@ -40,25 +47,22 @@ for algorithm in algorithms:
     disadvantaged_group = list_users[15:300]
     G = {1: advantaged_group, 2: disadvantaged_group}
 
-    # Calculando a quantidade de elementos em cada grupo
-    quantidades = {key: len(value) for key, value in G.items()}
-    # Exibindo os resultados
-    for key, quantidade in quantidades.items():
-        print(f"Grupo {key}: {quantidade} elementos")
+    # # Calculando a quantidade de elementos em cada grupo
+    # quantidades = {key: len(value) for key, value in G.items()}
+    # # Exibindo os resultados
+    # for key, quantidade in quantidades.items():
+    #     print(f"Grupo {key}: {quantidade} elementos")
 
     glv = GroupLossVariance(X, omega, G, 1) #axis = 1 (0 rows e 1 columns)
-    RgrpNR = glv.evaluate(X_est)
-    losses_RgrpNR = glv.get_losses(X_est)
+    RgrpActivity = glv.evaluate(X_est)
+    losses_RgrpActivity = glv.get_losses(X_est)
 
     print("\n\n------------------------------------------")
     print(f'Algorithm: {algorithm}')
-    print(f'Group (Rgrp NR): {RgrpNR:.7f}')
-    print(f'RgrpNR (advantaged_group)   : {losses_RgrpNR[1]:.7f}')
-    print(f'RgrpNR (disadvantaged_group): {losses_RgrpNR[2]:.7f}')
+    print(f'Group (Rgrp Activity): {RgrpActivity:.7f}')
+    print(f'RgrpActivity (advantaged_group)   : {losses_RgrpActivity[1]:.7f}')
+    print(f'RgrpActivity (disadvantaged_group): {losses_RgrpActivity[2]:.7f}')
 
-    RgrpNR_groups = ['Favorecidos', 'Desfavorecidos']
-    plt.bar(RgrpNR_groups, losses_RgrpNR)
-    plt.title(f'Rgrp (Avaliações) ({algorithm}): {RgrpNR:.7f}')
-    plt.savefig(f'plots/RgrpNR-{algorithm}')
-    plt.clf()
-    # plt.show()
+    rmse = RMSE(X, omega)
+    rmse_result = rmse.evaluate(X_est)
+    print(f'RMSE: {rmse_result:.7f}')

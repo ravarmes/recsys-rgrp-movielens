@@ -1,9 +1,6 @@
 from RecSys import RecSys
-from UserFairness import Polarization
-from UserFairness import IndividualLossVariance
 from UserFairness import GroupLossVariance
-import matplotlib.pyplot as plt
-
+from UserFairness import RMSE
 
 # reading data from 3883 movies and 6040 users 
 Data_path = 'Data/MovieLens-1M'
@@ -29,14 +26,6 @@ for algorithm in algorithms:
 
     X_est = recsys.compute_X_est(X, algorithm) # RecSysALS or RecSysKNN or RecSysNMF
 
-    # Group fairness. Let I be the set of all users/items and G = {G1 . . . ,Gg} be a partition of users/items into g groups. 
-    # The loss of group i as the mean squared estimation error over all known ratings in group i
-
-    # G group: identifying the groups (NR: users grouped by number of ratings for available items)
-    # advantaged group: 5% users with the highest number of item ratings
-    # disadvantaged group: 95% users with the lowest number of item ratings
-    #print(users_info)
-
     list_users = X_est.index.tolist()
 
     masculine = users_info[users_info['Gender'] == 1].index.intersection(list_users).tolist()
@@ -60,9 +49,6 @@ for algorithm in algorithms:
     print(f'RgrpGender (masculine): {losses_RgrpGender[1]:.7f}')
     print(f'RgrpGender (feminine) : {losses_RgrpGender[2]:.7f}')
 
-    RgrpGender_groups = ['Masculino', 'Feminino']
-    plt.bar(RgrpGender_groups, losses_RgrpGender)
-    plt.title(f'Rgrp (Gênero) ({algorithm}): {RgrpGender:.7f}')
-    plt.savefig(f'plots/RgrpGender-{algorithm}')
-    plt.clf()
-    # plt.show()
+    rmse = RMSE(X, omega)
+    rmse_result = rmse.evaluate(X_est)
+    print(f'RMSE: {rmse_result:.7f}')

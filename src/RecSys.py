@@ -1,7 +1,8 @@
 import pandas as pd
 import RecSysALS
-import RecSysKNN
 import RecSysNMF
+import RecSysKNN
+# import RecSysNCF
 
 class RecSys():
         
@@ -191,8 +192,8 @@ class RecSys():
         if(algorithm == 'RecSysALS'):
             
             # factorization parameters
-            rank = 1 # before 20
-            lambda_ = 1 # before 20 - ridge regularizer parameter
+            rank = 1 # before 20 (5)
+            lambda_ = 1 # before 20 (5) - ridge regularizer parameter
 
             # initiate a recommender system of type ALS (Alternating Least Squares)
             RS = RecSysALS.als_RecSysALS(rank,lambda_)
@@ -201,12 +202,17 @@ class RecSys():
         elif(algorithm == 'RecSysKNN'):
             RS = RecSysKNN.RecSysKNN(k=5, ratings=X, user_based=True)
             X_est = RS.fit_model()
+
         elif(algorithm == 'RecSysNMF'):
-            # RS = RecSysNMF.RecSysNMF(n_components=5, ratings=X)
             RS = RecSysNMF.RecSysNMF(n_components=5, ratings=X)
             X_est = RS.fit_model()
+
+        # elif(algorithm == 'RecSysNCF'):
+        #     RS = RecSysNCF.RecSysNCF(n_users=300, n_items=1000, n_factors=20, ratings=X)
+        #     X_est, error = RS.fit_model()
+
         else:
-            RecSysNMF
+            RecSysALS
         return X_est  
         
 

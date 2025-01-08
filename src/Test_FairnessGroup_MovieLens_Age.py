@@ -1,9 +1,6 @@
 from RecSys import RecSys
-from UserFairness import Polarization
-from UserFairness import IndividualLossVariance
 from UserFairness import GroupLossVariance
-import matplotlib.pyplot as plt
-
+from UserFairness import RMSE
 
 # reading data from 3883 movies and 6040 users 
 Data_path = 'Data/MovieLens-1M'
@@ -68,9 +65,6 @@ for algorithm in algorithms:
     print(f'RgrpAge (age_50_55) : {losses_RgrpAge[6]:.7f}')
     print(f'RgrpAge (age_56_00) : {losses_RgrpAge[7]:.7f}')
 
-    RgrpAge_groups = ['00-17', '18-24', '25-34', '35-44', '45-49', '50-55', '56-00']
-    plt.bar(RgrpAge_groups, losses_RgrpAge)
-    plt.title(f'Rgrp (Idade) ({algorithm}): {RgrpAge:.7f}')
-    plt.savefig(f'plots/RgrpAge-{algorithm}')
-    plt.clf()
-    # plt.show()
+    rmse = RMSE(X, omega)
+    rmse_result = rmse.evaluate(X_est)
+    print(f'RMSE: {rmse_result:.7f}')

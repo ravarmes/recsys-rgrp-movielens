@@ -6,7 +6,7 @@ import numpy.ma as ma
 class RecSysALS():
     __metaclass__ = ABCMeta
     
-    def __init__(self, rank, lambda_=1e-6, ratings=None):
+    def __init__(self, rank=20, lambda_=20, ratings=None):
         self.rank = rank
         self.lambda_ = lambda_
         if ratings is not None:

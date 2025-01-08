@@ -33,7 +33,7 @@ class RecSysKNN:
         similarity = similarity.div(similarity.sum(axis=1), axis=0)
         return similarity
     
-    def fit_model(self, max_iter=50, threshold=1e-5):
+    def fit_model(self, max_iter=200, threshold=1e-5):
         similarity = self.get_similarity_matrix()
         knn_similarity = self.knn_filtering(similarity)
         
