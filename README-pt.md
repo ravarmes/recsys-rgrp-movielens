@@ -79,6 +79,10 @@ pip install -r requirements.txt
 | Test_FairnessGroup_MovieLens_NR         | Script de teste do algoritmo de medidas de justiça (AlgorithmUserFairness) considerando o agrupamento dos usuários por número de avaliações                                                                                                |
 | Test_FairnessGroup_MovieLens_Activity_KNN_k         | Script para análise de sensibilidade do parâmetro k no algoritmo KNN                                                                                                |
 | Test_FairnessGroup_MovieLens_Agglomerative_Clusters         | Script para análise de sensibilidade do número de clusters na injustiça de grupo do agrupamento aglomerativo                                                                                                |
+| Test_FairnessGroup_MovieLens_KMeans         | Script para análise de injustiça de grupo utilizando agrupamento K-means nas características dos usuários                                                                                                |
+| Test_FairnessGroup_MovieLens_Age_KNN_k         | Script para análise de sensibilidade do parâmetro k no algoritmo KNN com agrupamento baseado em idade                                                                                                |
+| Test_FairnessGroup_MovieLens_Gender_KNN_k         | Script para análise de sensibilidade do parâmetro k no algoritmo KNN com agrupamento baseado em gênero                                                                                                |
+| Test_FairnessGroup_MovieLens_Agglomerative_KNN_k         | Script para análise de sensibilidade do parâmetro k no algoritmo KNN com agrupamento baseado em clustering aglomerativo                                                                                                |
 
 ## :database: Datasets <a name="-datasets"/></a>
 

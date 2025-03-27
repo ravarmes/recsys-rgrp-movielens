@@ -85,6 +85,10 @@ pip install -r requirements.txt
 | Test_FairnessGroup_MovieLens_NR         | Test script for the fairness measurement algorithm (AlgorithmUserFairness) considering user grouping by the number of ratings.                                                                                                |
 | Test_FairnessGroup_MovieLens_Activity_KNN_k         | Test script for analyzing the sensitivity of the k parameter in the KNN algorithm.                                                                                                |
 | Test_FairnessGroup_MovieLens_Agglomerative_Clusters         | Test script for analyzing the sensitivity of the number of clusters in group unfairness for agglomerative clustering.                                                                                                |
+| Test_FairnessGroup_MovieLens_KMeans         | Test script for analyzing group unfairness using K-means clustering on user features.                                                                                                |
+| Test_FairnessGroup_MovieLens_Age_KNN_k         | Test script for analyzing the sensitivity of the k parameter in the KNN algorithm with age-based grouping.                                                                                                |
+| Test_FairnessGroup_MovieLens_Gender_KNN_k         | Test script for analyzing the sensitivity of the k parameter in the KNN algorithm with gender-based grouping.                                                                                                |
+| Test_FairnessGroup_MovieLens_Agglomerative_KNN_k         | Test script for analyzing the sensitivity of the k parameter in the KNN algorithm with agglomerative clustering-based grouping.                                                                                                |
 
 ## :database: Datasets <a name="-datasets"/></a>
 
