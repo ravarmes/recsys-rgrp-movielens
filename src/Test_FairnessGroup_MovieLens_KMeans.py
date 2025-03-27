@@ -6,13 +6,12 @@ from UserFairness import RMSE
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import StandardScaler
-from sklearn.cluster import AgglomerativeClustering
-from scipy.cluster import hierarchy
+from sklearn.cluster import KMeans
 
 # reading data from 3883 movies and 6040 users 
 Data_path = 'Data/MovieLens-1M'
-n_users=  300
-n_items= 1000
+n_users = 300
+n_items = 1000
 top_users = True # True: to use users with more ratings; False: otherwise
 top_items = True # True: to use movies with more ratings; False: otherwise
 
@@ -22,7 +21,7 @@ algorithms = ['RecSysALS', 'RecSysNMF', 'RecSysKNN']
 resultados = []
 
 for algorithm in algorithms:
-
+    print(f"\n\nProcessing algorithm: {algorithm}")
     # parameters for calculating fairness measures
     l = 5
     theta = 3
@@ -42,8 +41,7 @@ for algorithm in algorithms:
     # The loss of group i as the mean squared estimation error over all known ratings in group i
 
     # G group: identifying the groups (Age, Gender, NR of users)
-    # The configuration of groups was based in the hierarchical clustering (tree clustering - dendrogram)
-    # Clusters 1, 2 and 3
+    # Using K-Means clustering to identify groups based on multiple attributes
 
     df = pd.DataFrame(columns=['Gender', 'Age'])
     df['Gender'] = users_info['Gender']
@@ -55,71 +53,41 @@ for algorithm in algorithms:
 
     df = df.drop(columns=['Loss'])
 
-    # # Gráfico da Correlação
-    # plt.figure(figsize=(7, 7))
-    # corr = np.corrcoef(df.values, rowvar=False)
-    # sns.heatmap(corr, annot=True, cmap='Blues', fmt='.2f', cbar=False, xticklabels=df.columns, yticklabels=df.columns)
-    # plt.show()
-
-    # # Gráfico pairplot
-    # print(df.head())
-    # sns.pairplot(df)
-    # plt.title('Pairplot of DataFrame')
-    # plt.show()
-
+    # Standardize the data for K-Means
     df_scaled = df.copy()
     df_scaled.iloc[:, :] = StandardScaler().fit_transform(df)
 
-    Z = hierarchy.linkage(df_scaled, 'ward')
-    
-    # # Plotagem do dendrograma
-    # plt.clf()  # Limpa o gráfico anterior
-    # plt.figure(figsize=(22, 10))
-    # plt.grid(axis='y')
-    # dn = hierarchy.dendrogram(Z, labels=list(df.index), leaf_font_size=8)
-    # plt.title('Dendrogram')
-    # plt.show()
-
     n_clusters = 5
-    cluster = AgglomerativeClustering(n_clusters=n_clusters, metric='euclidean', linkage='ward') # ['0.0061508', '0.0048103', '0.0030414'] ***
-
-    df_scaled['cluster_agglomerative'] = cluster.fit_predict(df_scaled)
+    kmeans = KMeans(n_clusters=n_clusters, random_state=42, n_init=10)
+    df_scaled['cluster_kmeans'] = kmeans.fit_predict(df_scaled)
 
     users = list(df_scaled.index)
-    groups = df_scaled['cluster_agglomerative']
+    groups = df_scaled['cluster_kmeans']
 
     grouped_users = {i: [] for i in range(n_clusters)}
     for user, group in zip(users, groups):
         grouped_users[group].append(user)
 
-    # for gp, ctr in grouped_users.items():
-    #     print(f'Cluster {gp}: {ctr}\n')
-
     G = {1: grouped_users[0], 2: grouped_users[1], 3: grouped_users[2], 4: grouped_users[3], 5: grouped_users[4]}
 
-    # # Calculando a quantidade de elementos em cada grupo
-    # quantidades = {key: len(value) for key, value in G.items()}
-    # # Exibindo os resultados
-    # for key, quantidade in quantidades.items():
-    #     print(f"Grupo {key}: {quantidade} elementos")
-
     glv = GroupLossVariance(X, omega, G, 1) #axis = 1 (0 rows e 1 columns)
-    RgrpAgglomerative = glv.evaluate(X_est)
-    losses_RgrpAgglomerative = glv.get_losses(X_est)
+    RgrpKMeans = glv.evaluate(X_est)
+    losses_RgrpKMeans = glv.get_losses(X_est)
 
-    print("\n\n------------------------------------------")
+    print("\n------------------------------------------")
     print(f'Algorithm: {algorithm}')
-    print(f'Group (Rgrp Agglomerative): {RgrpAgglomerative:.7f}')
-    print(f'RgrpAgglomerative (1) : {losses_RgrpAgglomerative[1]:.7f}')
-    print(f'RgrpAgglomerative (2) : {losses_RgrpAgglomerative[2]:.7f}')
-    print(f'RgrpAgglomerative (3) : {losses_RgrpAgglomerative[3]:.7f}')
-    print(f'RgrpAgglomerative (4) : {losses_RgrpAgglomerative[4]:.7f}')
-    print(f'RgrpAgglomerative (5) : {losses_RgrpAgglomerative[5]:.7f}')
+    print(f'Group (Rgrp KMeans): {RgrpKMeans:.7f}')
+    print(f'RgrpKMeans (1): {losses_RgrpKMeans[1]:.7f}')
+    print(f'RgrpKMeans (2): {losses_RgrpKMeans[2]:.7f}')
+    print(f'RgrpKMeans (3): {losses_RgrpKMeans[3]:.7f}')
+    print(f'RgrpKMeans (4): {losses_RgrpKMeans[4]:.7f}')
+    print(f'RgrpKMeans (5): {losses_RgrpKMeans[5]:.7f}')
 
-    resultados.append(f'{RgrpAgglomerative:.7f}')
+    resultados.append(f'{RgrpKMeans:.7f}')
 
     rmse = RMSE(X, omega)
     rmse_result = rmse.evaluate(X_est)
     print(f'RMSE: {rmse_result:.7f}')
 
+print("\nFinal results for all algorithms:")
 print(resultados)
