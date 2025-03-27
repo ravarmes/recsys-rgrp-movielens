@@ -200,7 +200,7 @@ class RecSys():
             X_est, error = RS.fit_model(X)
 
         elif(algorithm == 'RecSysKNN'):
-            RS = RecSysKNN.RecSysKNN(k=5, ratings=X, user_based=True)
+            RS = RecSysKNN.RecSysKNN(k=self.k, ratings=X, user_based=True)
             X_est = RS.fit_model()
 
         elif(algorithm == 'RecSysNMF'):

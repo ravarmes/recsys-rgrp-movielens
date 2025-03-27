@@ -24,6 +24,9 @@
 
 <p align="center">
   <a href="#-sobre">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-instalacao">Instalação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-arquivos">Arquivos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-datasets">Datasets</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licenca">Licença</a>
 </p>
 
@@ -36,7 +39,31 @@ Este estudo investiga a equidade em sistemas de recomendação utilizando o data
 * Individual fairness (Justiça Individual): a perda do usuário i é a estimativa do erro quadrático médio sobre as classificações conhecidas do usuário i;
 * Group Fairness (Justiça de Grupo): a perda do grupo Li como a estimativa do erro quadrático médio sobre todas as avaliações conhecidas no grupo i.
 
-### Arquivos
+## :computer: Instalação <a name="-instalacao"/></a>
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/ravarmes/recsys-rgrp-movielens.git
+cd recsys-rgrp-movielens
+```
+
+2. Crie um ambiente virtual (recomendado):
+```bash
+python -m venv venv
+source venv/bin/activate  # No Windows: venv\Scripts\activate
+```
+
+3. Instale as dependências necessárias:
+```bash
+pip install -r requirements.txt
+```
+
+4. Baixe o dataset MovieLens-1M:
+   - Visite [MovieLens](https://grouplens.org/datasets/movielens/1m/)
+   - Baixe o dataset
+   - Extraia os arquivos para o diretório `Data/MovieLens-1M`
+
+## :file_folder: Arquivos <a name="-arquivos"/></a>
 
 | Arquivo                               | Descrição                                                                                                                                                                                                                                   |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -50,8 +77,37 @@ Este estudo investiga a equidade em sistemas de recomendação utilizando o data
 | Test_FairnessGroup_MovieLens_Agglomerative         | Script de teste do algoritmo de medidas de justiça (AlgorithmUserFairness) considerando o agrupamento aglomerativo                                                                                                |
 | Test_FairnessGroup_MovieLens_Gender         | Script de teste do algoritmo de medidas de justiça (AlgorithmUserFairness) considerando o agrupamento dos usuários por gênero                                                                                                |
 | Test_FairnessGroup_MovieLens_NR         | Script de teste do algoritmo de medidas de justiça (AlgorithmUserFairness) considerando o agrupamento dos usuários por número de avaliações                                                                                                |
+| Test_FairnessGroup_MovieLens_Activity_KNN_k         | Script para análise de sensibilidade do parâmetro k no algoritmo KNN                                                                                                |
+| Test_FairnessGroup_MovieLens_Agglomerative_Clusters         | Script para análise de sensibilidade do número de clusters na injustiça de grupo do agrupamento aglomerativo                                                                                                |
 
+## :database: Datasets <a name="-datasets"/></a>
 
+### Dataset MovieLens-1M
+O dataset MovieLens-1M contém 1 milhão de avaliações de 6.040 usuários sobre 3.883 filmes. O dataset inclui:
+- Informações dos usuários (gênero, idade, ocupação, código postal)
+- Informações dos filmes (título, gêneros)
+- Informações das avaliações (valor da avaliação, timestamp)
+
+### Usando Outros Datasets
+Para usar um dataset diferente, você precisa:
+
+1. Criar um novo método de leitura de dados na classe `RecSys`:
+```python
+def read_your_dataset(self, n_users, n_items, top_users, top_items, data_dir):
+    # Implemente sua lógica de leitura de dados aqui
+    # Retorne X (matriz de avaliações), users_info, items_info
+    pass
+```
+
+2. Adicionar o novo algoritmo ao método `compute_X_est` na classe `RecSys`:
+```python
+def compute_X_est(self, X, algorithm):
+    if algorithm == 'YourNewAlgorithm':
+        # Implemente seu algoritmo aqui
+        pass
+```
+
+3. Atualizar os scripts de teste para usar seu novo dataset e algoritmo.
 
 ## :memo: Licença <a name="-licenca"/></a>
 

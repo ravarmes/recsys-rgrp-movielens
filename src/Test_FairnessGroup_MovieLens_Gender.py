@@ -17,7 +17,7 @@ for algorithm in algorithms:
     # parameters for calculating fairness measures
     l = 5
     theta = 3
-    k = 3
+    k = 5
 
     recsys = RecSys(n_users, n_items, top_users, top_items, l, theta, k)
 
